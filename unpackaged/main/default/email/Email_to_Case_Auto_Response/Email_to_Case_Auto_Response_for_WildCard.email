@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<title>Thank you for contacting us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- CSS Reset -->
+<style type="text/css">
+html,  body {
+margin: 0 !important;
+padding: 0 !important;
+height: 100% !important;
+width: 100% !important;
+}
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+div[style*="margin: 16px 0"] {
+margin: 0 !important;
+}
+table,  td {
+mso-table-lspace: 0pt !important;
+mso-table-rspace: 0pt !important;
+}
+table {
+border-spacing: 0 !important;
+border-collapse: collapse !important;
+table-layout: fixed !important;
+margin: 0 auto !important;
+}
+table table table {
+table-layout: auto;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+.yshortcuts a {
+border-bottom: none !important;
+}
+a[x-apple-data-detectors] {
+color: inherit !important;
+}
+</style>
+
+</head>
+<body bgcolor="#ffffff" width="100%" yahoo="yahoo" style="margin: 0px; padding: 0px; background-color: #ffffff;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+  <tr>
+    <td style="background-color: #ffffff;"><table width="600" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+        <tr>
+          <td align="center" style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">Thank you for contacting Seminole Wild Card</td>
+        </tr>
+        <tr>
+          <td style="height: 60px; max-width: 600px;"><table width="100%" style="margin: 20px 0 14px 0;">
+              <tr>
+                <td width="100%" style="background-color: #ffffff; text-align: center; margin:auto;"><a href="https://www.seminolewildcard.com" target="_blank"><img src="{!$Label.System_Link_For_Loyalty}" alt="Seminole Wild Card logo" width="175" height="auto" style="text-align: center; width: 175px; height: auto;" border="0"></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+               <br>
+<br>
+Reference: {!Case.CaseNumber}<br>
+ <br>
+
+Thank you for contacting us.<br>
+ <br>
+
+We have received your message. A Seminole Wild Card representative will be in contact in the next 72 hours. If you need immediate assistance, please call us at +1 (954) 488-6000.<br>
+<br>
+
+
+Sincerely,<br>
+ <br>
+
+Seminole Gaming

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_cannot_be_close_when_owner_is_Queue</fullName>
+    <active>true</active>
+    <description>Jira#=94: Ability for the System to restrict case closure manually when ownership is assigned to the queue.
+00e4x000001VLdrAAG = System Administrator profile</description>
+    <errorConditionFormula>AND(
+$User.ProfileId &lt;&gt; $Label.System_Admin_ProfileId,
+$User.Id &lt;&gt; $Label.Medallia_Integration_User_Id ,
+OwnerId &lt;&gt; $Label.Case_Medallia_Queue_Id,
+LEFT(OwnerId, 3) = &quot;00G&quot;,
+Text(Status) =&quot;Closed&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>The case can not be closed when the case owner is Queue.</errorMessage>
+</ValidationRule>

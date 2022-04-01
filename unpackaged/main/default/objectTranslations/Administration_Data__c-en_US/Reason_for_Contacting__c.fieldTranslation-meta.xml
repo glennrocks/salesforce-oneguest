@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason for Contacting --></label>
+        <name>Reason_for_Contacting__c</name>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comp Dollars, Tier Points, or Free Play Questions</masterLabel>
+            <translation><!-- Comp Dollars, Tier Points, or Free Play Questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dining</masterLabel>
+            <translation><!-- Dining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment</masterLabel>
+            <translation><!-- Employment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment &amp; Hard Rock Live</masterLabel>
+            <translation><!-- Entertainment &amp; Hard Rock Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaming (Bingo, Slots, Tables, Poker)</masterLabel>
+            <translation><!-- Gaming (Bingo, Slots, Tables, Poker) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaming (Slots, Tables, Poker)</masterLabel>
+            <translation><!-- Gaming (Slots, Tables, Poker) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Inquiry</masterLabel>
+            <translation><!-- General Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel Offers and Reservations</masterLabel>
+            <translation><!-- Hotel Offers and Reservations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location Accessibility</masterLabel>
+            <translation><!-- Location Accessibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Login Info &amp; Support</masterLabel>
+            <translation><!-- Login Info &amp; Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Support</masterLabel>
+            <translation><!-- Online Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Miscellaneous</masterLabel>
+            <translation><!-- Other/Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Info</masterLabel>
+            <translation><!-- Product Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion Question</masterLabel>
+            <translation><!-- Promotion Question --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations &amp; Advertising</masterLabel>
+            <translation><!-- Public Relations &amp; Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Question or Concern</masterLabel>
+            <translation><!-- Question or Concern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns &amp; Refunds</masterLabel>
+            <translation><!-- Returns &amp; Refunds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rock Spa</masterLabel>
+            <translation><!-- Rock Spa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales/Catering</masterLabel>
+            <translation><!-- Sales/Catering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales/Catering/Meetings</masterLabel>
+            <translation><!-- Sales/Catering/Meetings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminole Wild Card Online</masterLabel>
+            <translation><!-- Seminole Wild Card Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping Questions</masterLabel>
+            <translation><!-- Shipping Questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Issue or Feedback</masterLabel>
+            <translation><!-- Website Issue or Feedback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Win/Loss Statement Requests</masterLabel>
+            <translation><!-- Win/Loss Statement Requests --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HR_Casino_Cincinnati_Employees</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Type__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.DEPARTMENT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Franchise_Managed_Property_Employee</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ACCOUNT_ID</field>
+        <operation>equals</operation>
+        <value>0017h00000Wt8ej</value>
+    </filters>
+    <label>HR Casino Cincinnati Employees</label>
+</ListView>

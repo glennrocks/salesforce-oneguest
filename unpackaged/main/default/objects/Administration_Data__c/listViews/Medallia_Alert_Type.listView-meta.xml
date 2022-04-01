@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medallia_Alert_Type</fullName>
+    <columns>NAME</columns>
+    <columns>Use_For__c</columns>
+    <columns>Medallia_Alert_Types__c</columns>
+    <columns>Case_Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Use_For__c</field>
+        <operation>equals</operation>
+        <value>Medallia Alert Type</value>
+    </filters>
+    <label>Medallia Alert Type</label>
+</ListView>

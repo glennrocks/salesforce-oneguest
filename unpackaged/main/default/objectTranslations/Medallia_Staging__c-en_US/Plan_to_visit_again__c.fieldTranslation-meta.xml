@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plan to visit again --></label>
+        <name>Plan_to_visit_again__c</name>
+        <picklistValues>
+            <masterLabel>1 year</masterLabel>
+            <translation><!-- 1 year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Within the next week</masterLabel>
+            <translation><!-- Within the next week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>next 30 days</masterLabel>
+            <translation><!-- next 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>next 6 months</masterLabel>
+            <translation><!-- next 6 months --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

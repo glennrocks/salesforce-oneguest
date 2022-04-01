@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>exk3l7hjd8IrNfYH84x7</issuer>
+    <loginUrl>https://shrss.okta.com/app/salesforce/exk3l7hjd8IrNfYH84x7/sso/saml</loginUrl>
+    <logoutUrl>https://shrss.okta.com</logoutUrl>
+    <name>SHRSS SSO</name>
+    <oauthTokenEndpoint>https://seminolehardrocksupportservices.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P14x000007TTOG</requestSigningCertId>
+    <salesforceLoginUrl>https://seminolehardrocksupportservices.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://seminolehardrocksupportservices.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDmjCCAoKgAwIBAgIGAXCnCTwBMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxDjAMBgNVBAMMBXNocnNzMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMB4XDTIwMDMwNDE5MzE0NVoXDTMwMDMwNDE5MzI0NFowgY0xCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEOMAwGA1UEAwwFc2hyc3MxHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCAHXAPaiW5TNaQ66zswczy7J1/JnjERNqS3dufPoPP7ooqQ53G9MN2ovF4WXhCOatydbXu6XUfu9mtXdkVA0SGpz3V+YrpNtEmeZ0lzzg7MHJOr9ywpJ/BRfqpQToZVM33jD6qYHd05k8qbnf+xhnXy3zuWKg/rt+6DWFe5JJmIaxZ9Npii322pI4RUDO0LUW0nzwRZeEIhC8lZixeNK859VtAR5BM8HIxlpjwh+pO9SMi3DsTtSyg/xTt3Fv8RAzmuIOtzFO6wTefRXAAXEEydWboPFyi1DcVfy2V8Hvq2suq8Vme83Uk9d71Od/8qdYUa+i4MoHxyBECQKvMroyDAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAAlyPSM8D6ThhDH0ivgZVzkAbdNxFw4qCOftHJBUj0MQIRvnzeE4VcSkmcFHmip8ZWBCZhDHONEnk5fCgDdscGGTpVDTw4dHoSAERkSkYLL8K7pWw/nua3DQ3EnHQ444/SedZuolHVPLhkn1/RmWehzk/Hb9OvyOCuQB021q2CJbQL1mz2sFzdzWdRdPxSfD556q9kXiCPfY60ELXq8LsnnDANglWL7sRTgScLQjNDUVUQoaGBqjc/wrGvfcC4+zVT7PhXps54h8yXwLEQaLE5P4Zy9q/gNYiXzWZG9Q3MRlMpLQQ/9bPGS7+n/Zy0lldqRcULDzZk5KOHZGervnyXA=</validationCert>
+</SamlSsoConfig>

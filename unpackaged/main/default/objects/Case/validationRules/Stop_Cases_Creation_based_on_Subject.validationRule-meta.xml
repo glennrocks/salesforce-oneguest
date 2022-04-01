@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stop_Cases_Creation_based_on_Subject</fullName>
+    <active>true</active>
+    <description>Subject Value has some error to avoid this error to be create the creation of this kind of case is avoided</description>
+    <errorConditionFormula>AND(
+OR( Subject  = &quot;Command Error (Release)&quot;,  Subject  = &quot;Command Error (Release and Allow Sender)&quot; ))</errorConditionFormula>
+    <errorDisplayField>Subject</errorDisplayField>
+    <errorMessage>Please assign the cases with Correct Subject</errorMessage>
+</ValidationRule>

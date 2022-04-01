@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Priority_With_Case_Type</fullName>
+    <active>true</active>
+    <label>Case Priority With Case Type</label>
+    <picklistValues>
+        <picklist>Case_Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Record_Type__c</picklist>
+        <values>
+            <fullName>E_Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GX360_Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loyalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medallia_Alert_Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated Level Two</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overdue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Contacting__c</picklist>
+        <values>
+            <fullName>Benefits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Dollars%2C Tier Points%2C or Free Play Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment %26 Hard Rock Live</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming %28Bingo%2C Slots%2C Tables%2C Poker%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming %28Slots%2C Tables%2C Poker%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel Offers and Reservations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location Accessibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Info %26 Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%2FMiscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotion Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations %26 Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question or Concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returns %26 Refunds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock Spa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales%2FCatering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales%2FCatering%2FMeetings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminole Wild Card Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Issue or Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win%2FLoss Statement Requests</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SF_Case_Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Use_For__c</picklist>
+        <values>
+            <fullName>Case Priority With Case Type</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

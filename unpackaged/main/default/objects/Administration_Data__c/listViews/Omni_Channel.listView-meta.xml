@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Omni_Channel</fullName>
+    <columns>NAME</columns>
+    <columns>Use_For__c</columns>
+    <columns>Trackable_Statuses__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Use_For__c</field>
+        <operation>equals</operation>
+        <value>Omni Channel</value>
+    </filters>
+    <label>Omni Channel</label>
+</ListView>

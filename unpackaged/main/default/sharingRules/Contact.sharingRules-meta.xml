@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Customer_Guest_Contact_SR_for_Agents</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Customer/Guest Contact SR for Agents</label>
+        <sharedTo>
+            <group>Agents_Public_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer &amp; Guest</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Franchise_Mngd_Locat_Emplyee_Cust_Guest_Contact_SR_for_Supervisor_Above</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Franchise/Mngd Locat Emplyee &amp; Cust/Guest Contact SR for Supervisor &amp; Above</label>
+        <sharedTo>
+            <group>Supervisor_Public_Group</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer &amp; Guest</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Franchise &amp; Managed Location Employee</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Franchise_Mngd_Location_Employee_Contact_SR_for_Agents</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Franchise/Mngd Location Employee Contact SR for Agents</label>
+        <sharedTo>
+            <group>Agents_Public_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Franchise &amp; Managed Location Employee</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,17 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Sincerely,&nbsp;<br />
+<br />
+{{{Sender.FirstName}}}<br />
+{{{Sender.Title}}}</body></html>

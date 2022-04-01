@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Cafe: Franchise</fullName>
+        <default>false</default>
+        <label>Cafe: Franchise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cafe: Managed</fullName>
+        <default>false</default>
+        <label>Cafe: Managed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel: Franchise</fullName>
+        <default>false</default>
+        <label>Hotel: Franchise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel: Managed</fullName>
+        <default>false</default>
+        <label>Hotel: Managed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casino: Franchise</fullName>
+        <default>false</default>
+        <label>Casino: Franchise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casino: Managed</fullName>
+        <default>false</default>
+        <label>Casino: Managed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casino Hotel: Franchise</fullName>
+        <default>false</default>
+        <label>Casino Hotel: Franchise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casino Hotel: Managed</fullName>
+        <default>false</default>
+        <label>Casino Hotel: Managed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rock Shop: Franchise</fullName>
+        <default>false</default>
+        <label>Rock Shop: Franchise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rock Shop: Managed</fullName>
+        <default>false</default>
+        <label>Rock Shop: Managed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hard Rock Live: Franchise</fullName>
+        <default>false</default>
+        <label>Hard Rock Live: Franchise</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hard Rock Live: Managed</fullName>
+        <default>false</default>
+        <label>Hard Rock Live: Managed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

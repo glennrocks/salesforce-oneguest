@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Overall Satisfaction with Restaurant  2 --></label>
+        <name>Overall_Satisfaction_with_Restaurant_2__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Staff&apos;s Knowledge of the Resort 1 --></label>
+        <name>Staff_s_Knowledge_of_the_Resort_1__c</name>
+    </CustomFieldTranslation>

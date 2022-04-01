@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Case_Pending_Alert__c</fullName>
+    <description>use in casependingalert lightning component</description>
+    <externalId>false</externalId>
+    <formula>AND(
+$RecordType.Name = &#39;GX360 Survey&#39;,
+ Not(Case_handled_in_SFDC_flag__c),
+ OR(Medallia_Alert_Status__c =&#39;In Progress&#39;,
+    Medallia_Alert_Status__c =&#39;Overdue&#39;,
+    Medallia_Alert_Status__c =&#39;Escalated&#39;,
+    Medallia_Alert_Status__c =&#39;Escalated Level Two&#39;
+   ) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>System Case Pending Alert</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Satisfaction_Detractor__c</fullName>
+    <externalId>false</externalId>
+    <label>Resolution Satisfaction (Detractor)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Had a problem and it wasn’t resolved to my satisfaction</fullName>
+                <default>false</default>
+                <label>Had a problem and it wasn’t resolved to my satisfaction</label>
+            </value>
+            <value>
+                <fullName>Had a problem and it was resolved to my satisfaction</fullName>
+                <default>false</default>
+                <label>Had a problem and it was resolved to my satisfaction</label>
+            </value>
+            <value>
+                <fullName>Didn’t have a problem</fullName>
+                <default>false</default>
+                <label>Didn’t have a problem</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

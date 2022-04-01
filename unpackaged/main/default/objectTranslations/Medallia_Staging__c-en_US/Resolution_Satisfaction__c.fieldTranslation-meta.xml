@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Resolution Satisfaction --></label>
+        <name>Resolution_Satisfaction__c</name>
+        <picklistValues>
+            <masterLabel>Didn’t have a problem</masterLabel>
+            <translation><!-- Didn’t have a problem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Had a problem and it was resolved to my satisfaction</masterLabel>
+            <translation><!-- Had a problem and it was resolved to my satisfaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Had a problem and it wasn’t resolved to my satisfaction</masterLabel>
+            <translation><!-- Had a problem and it wasn’t resolved to my satisfaction --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

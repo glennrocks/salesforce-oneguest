@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Concerned Dept --></label>
+        <name>Concerned_Dept__c</name>
+        <picklistValues>
+            <masterLabel>Banquet or Catering</masterLabel>
+            <translation><!-- Banquet or Catering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino Beverage</masterLabel>
+            <translation><!-- Casino Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino Public Space</masterLabel>
+            <translation><!-- Casino Public Space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino: Cashier</masterLabel>
+            <translation><!-- Casino: Cashier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino: Player Development (use for all Elite/X-Card)</masterLabel>
+            <translation><!-- Casino: Player Development (use for all Elite/X-Card) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino: Players Clubs</masterLabel>
+            <translation><!-- Casino: Players Clubs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino: Poker</masterLabel>
+            <translation><!-- Casino: Poker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino: Slot</masterLabel>
+            <translation><!-- Casino: Slot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino: Table Games</masterLabel>
+            <translation><!-- Casino: Table Games --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Leadership (All)</masterLabel>
+            <translation><!-- Corporate Leadership (All) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Leadership (Digital/Marketing)</masterLabel>
+            <translation><!-- Corporate Leadership (Digital/Marketing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Leadership (Direct)</masterLabel>
+            <translation><!-- Corporate Leadership (Direct) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Care Leadership (All)</masterLabel>
+            <translation><!-- Customer Care Leadership (All) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Care Leadership (Direct)</masterLabel>
+            <translation><!-- Customer Care Leadership (Direct) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment/Box Office</masterLabel>
+            <translation><!-- Entertainment/Box Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F&amp;B Leadership</masterLabel>
+            <translation><!-- F&amp;B Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel/Recreation/Spa/Housekeeping/EVS Leadership</masterLabel>
+            <translation><!-- Hotel/Recreation/Spa/Housekeeping/EVS Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Night Club</masterLabel>
+            <translation><!-- Night Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Leadership</masterLabel>
+            <translation><!-- Property Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

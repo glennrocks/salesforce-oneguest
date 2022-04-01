@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Cannot_Update_few_Status</fullName>
+    <active>true</active>
+    <description>Agent Cannot Change Escalated,Overdue and 	Escalated Level Two</description>
+    <errorConditionFormula>AND(
+    $User.ProfileId =  $Label.System_Agent_ProfileId,
+    ISCHANGED(Status),
+    OR(
+       ISPICKVAL(Status, &#39;Escalated&#39;) ,
+       ISPICKVAL(Status, &#39;Overdue&#39;) ,
+       ISPICKVAL(Status, &#39;Escalated Level Two&#39;),
+       ISPICKVAL(Status, &#39;Open in MS Dynamics&#39;)
+       )
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Agent Cannot Change Status to Escalated, Escalated Level Two, Overdue or Open in MS Dynamics.</errorMessage>
+</ValidationRule>

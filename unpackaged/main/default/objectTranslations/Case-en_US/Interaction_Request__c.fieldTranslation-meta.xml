@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Interaction Request --></label>
+        <name>Interaction_Request__c</name>
+        <picklistValues>
+            <masterLabel>I Prefer Call</masterLabel>
+            <translation><!-- I Prefer Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I Prefer Email</masterLabel>
+            <translation><!-- I Prefer Email --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

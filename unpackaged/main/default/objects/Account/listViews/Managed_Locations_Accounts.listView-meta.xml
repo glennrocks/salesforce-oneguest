@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Managed_Locations_Accounts</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>medallia_xm__Medallia_Include_in_surveys__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Location_Number__c</columns>
+    <columns>Territory__c</columns>
+    <columns>Business_Line__c</columns>
+    <columns>Brand__c</columns>
+    <columns>Active_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Franchise_Managed_Account</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Cafe: Managed,Hotel: Managed,Casino: Managed</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Casino Hotel: Managed,Rock Shop: Managed,Hard Rock Live: Managed</value>
+    </filters>
+    <label>Managed Location Accounts</label>
+</ListView>

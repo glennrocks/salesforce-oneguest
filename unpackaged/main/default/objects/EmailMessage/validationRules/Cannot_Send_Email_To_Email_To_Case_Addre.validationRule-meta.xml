@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Send_Email_To_Email_To_Case_Addre</fullName>
+    <active>true</active>
+    <description>Cannot Send Email To Email-To-Case Address</description>
+    <errorConditionFormula>AND(
+NOT($User.Id= $Label.Support_Settings_User),
+OR($User.ProfileId = $Label.System_Agent_ProfileId,
+$User.ProfileId= $Label.System_Supervisor_ProfileId,
+$User.ProfileId= $Label.System_Business_Admin_ProfileId,
+$User.ProfileId= $Label.System_Admin_ProfileId
+
+),
+OR(
+CONTAINS(ToAddress,&#39;rockshop@gmail.com&#39;),CONTAINS(BccAddress,&#39;rockshop@gmail.com&#39;),CONTAINS(CcAddress,&#39;rockshop@gmail.com&#39;),
+CONTAINS(ToAddress,&#39;rockshop.accounuat@gmail.com&#39;),CONTAINS(BccAddress,&#39;rockshop.accounuat@gmail.com&#39;),CONTAINS(CcAddress,&#39;rockshop.accounuat@gmail.com&#39;),
+CONTAINS(ToAddress,&#39;hardrock.feedbacuat@gmail.com&#39;),CONTAINS(BccAddress,&#39;hardrock.feedbacuat@gmail.com&#39;),CONTAINS(CcAddress,&#39;hardrock.feedbacuat@gmail.com&#39;),
+CONTAINS(ToAddress,&#39;ecommercesupporaddressuat@gmail.com&#39;),CONTAINS(BccAddress,&#39;ecommercesupporaddressuat@gmail.com&#39;),CONTAINS(CcAddress,&#39;ecommercesupporaddressuat@gmail.com&#39;),
+CONTAINS(ToAddress,&#39;customercare-uat@shrss.com&#39;),CONTAINS(BccAddress,&#39;customercare-uat@shrss.com&#39;),CONTAINS(CcAddress,&#39;customercare-uat@shrss.com&#39;),
+CONTAINS(ToAddress,&#39;hardrock.customersuppor2uat@gmail.com&#39;),CONTAINS(BccAddress,&#39;hardrock.customersuppor2uat@gmail.com&#39;),CONTAINS(CcAddress,&#39;hardrock.customersuppor2uat@gmail.com&#39;),
+CONTAINS(ToAddress,&#39;rockshop@hardrock.com&#39;),CONTAINS(BccAddress,&#39;rockshop@hardrock.com&#39;),CONTAINS(CcAddress,&#39;rockshop@hardrock.com&#39;),
+CONTAINS(ToAddress,&#39;hardrock_crm@hardrock.com&#39;),CONTAINS(BccAddress,&#39;hardrock_crm@hardrock.com&#39;),CONTAINS(CcAddress,&#39;hardrock_crm@hardrock.com&#39;),
+CONTAINS(ToAddress,&#39;feedback@shrss.com&#39;),CONTAINS(BccAddress,&#39;feedback@shrss.com&#39;),CONTAINS(CcAddress,&#39;feedback@shrss.com&#39;),
+CONTAINS(ToAddress,&#39;customer_care@hardrock.com&#39;),CONTAINS(BccAddress,&#39;customer_care@hardrock.com&#39;),CONTAINS(CcAddress,&#39;customer_care@hardrock.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminolewildcard.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminolewildcard.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminolewildcard.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminolehardrockhollywood.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminolehardrockhollywood.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminolehardrockhollywood.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminolehardrocktampa.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminolehardrocktampa.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminolehardrocktampa.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminolecoconutcreekcasino.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminolecoconutcreekcasino.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminolecoconutcreekcasino.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminolebrightoncasino.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminolebrightoncasino.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminolebrightoncasino.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminoleclassiccasino.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminoleclassiccasino.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminoleclassiccasino.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@seminoleimmokaleecasino.com&#39;),CONTAINS(BccAddress,&#39;customercare@seminoleimmokaleecasino.com&#39;),CONTAINS(CcAddress,&#39;customercare@seminoleimmokaleecasino.com&#39;),
+CONTAINS(ToAddress,&#39;customercare@unitybyhardrock.com&#39;),CONTAINS(BccAddress,&#39;customercare@unitybyhardrock.com&#39;),CONTAINS(CcAddress,&#39;customercare@unitybyhardrock.com&#39;),
+CONTAINS(ToAddress,&#39;accessibility@hardrock.com&#39;),CONTAINS(BccAddress,&#39;accessibility@hardrock.com&#39;),CONTAINS(CcAddress,&#39;accessibility@hardrock.com&#39;)))</errorConditionFormula>
+    <errorMessage>One or more of the internal email addresses entered should not be used to send an email. See your support team for assistance.</errorMessage>
+</ValidationRule>

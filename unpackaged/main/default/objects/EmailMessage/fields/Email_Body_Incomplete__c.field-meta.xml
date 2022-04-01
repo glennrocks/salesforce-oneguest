@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Body_Incomplete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Email Body Incomplete  Enter a label to be used on displays, page layouts, reports, and list views.
+
+Checked   Unchecked		
+Email_Body_Incomplete  The Field Name is an internal reference and is used for integration purposes such as custom links, custom s-controls, and the API. Be careful when changing the Field Name as it may affect existing integrations.
+
+This text displays on detail and edit pages when users hover over the Info icon next to this fieldAdd this field to existing custom report types that contain this entity If an error is encountered, you can still make the field available if you manually add the field to the custom report types.</description>
+    <externalId>false</externalId>
+    <label>Email Body Incomplete</label>
+    <type>Checkbox</type>
+</CustomField>

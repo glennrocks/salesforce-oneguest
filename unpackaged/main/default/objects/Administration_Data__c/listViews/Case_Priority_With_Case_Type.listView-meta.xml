@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Priority_With_Case_Type</fullName>
+    <columns>NAME</columns>
+    <columns>Webform_Link__c</columns>
+    <columns>Reason_for_Contacting__c</columns>
+    <columns>Case_Record_Type__c</columns>
+    <columns>Case_Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Use_For__c</field>
+        <operation>equals</operation>
+        <value>Case Priority With Case Type</value>
+    </filters>
+    <label>Case Priority With Case Type</label>
+</ListView>

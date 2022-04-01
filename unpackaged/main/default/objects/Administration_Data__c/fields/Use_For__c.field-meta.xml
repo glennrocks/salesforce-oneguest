@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_For__c</fullName>
+    <externalId>false</externalId>
+    <label>Use For</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medallia Property</fullName>
+                <default>false</default>
+                <label>Medallia Property</label>
+            </value>
+            <value>
+                <fullName>Case Escalation</fullName>
+                <default>false</default>
+                <label>Case Escalation</label>
+            </value>
+            <value>
+                <fullName>Medallia Alert Type</fullName>
+                <default>false</default>
+                <label>Medallia Alert Type</label>
+            </value>
+            <value>
+                <fullName>Case Priority With Case Type</fullName>
+                <default>false</default>
+                <label>Case Priority With Case Type</label>
+            </value>
+            <value>
+                <fullName>Medallia Case Status</fullName>
+                <default>false</default>
+                <label>Medallia Case Status</label>
+            </value>
+            <value>
+                <fullName>WebForms Property</fullName>
+                <default>false</default>
+                <label>WebForms Property</label>
+            </value>
+            <value>
+                <fullName>Medallia Survey Progress</fullName>
+                <default>false</default>
+                <label>Medallia Survey Progress</label>
+            </value>
+            <value>
+                <fullName>Omni Channel</fullName>
+                <default>false</default>
+                <label>Omni Channel</label>
+            </value>
+            <value>
+                <fullName>Email To Case Template Selection</fullName>
+                <default>false</default>
+                <label>Email To Case Template Selection</label>
+            </value>
+            <value>
+                <fullName>Executive Escalation</fullName>
+                <default>false</default>
+                <label>Executive Escalation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

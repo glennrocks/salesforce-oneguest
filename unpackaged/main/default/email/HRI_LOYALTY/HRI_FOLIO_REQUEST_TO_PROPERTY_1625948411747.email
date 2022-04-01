@@ -1,0 +1,25 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="background:white"><span style="line-height:normal">Hello Team,</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">We have been contacted by the Hard Rock Rewards Program Member {{{Recipient.Name}}}&nbsp; (Rewards ID #&nbsp; {{{Recipient.Loyalty_Id__c}}}) regarding credit for their recent hotel stay at your property. </span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Can you please supply the following so that we may verify eligibility: </span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">1. A copy of guest’s folio [showing Room Rate and Method of Payment].</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">2. Confirm Rate Code on Reservation.</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">3. Confirm if Rate Code qualifies for Hard Rock Rewards Points. If not eligible for points, please confirm the reason why it does not qualify.</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">4. Confirm the Method of Payment.</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">If the investigation shows that the Hard Rock Rewards Program Member should have been issued a credit for their stay, we will award the points manually. If the stay did not qualify for points accrual, we will alert the Member.</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Thank you,</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span></span></span><br />
+<br />
+<br />
+<br />
+&nbsp;</body></html>

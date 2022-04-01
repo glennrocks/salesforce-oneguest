@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_and_Contact_must_be_have_same_Re</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+(Account.RecordType.DeveloperName = &#39;Franchise_Managed_Account&#39; &amp;&amp;  Contact.RecordType.DeveloperName = &#39;Customer_Guest&#39;),
+
+(Account.RecordType.DeveloperName = &#39;Customer_Guest_Account&#39; &amp;&amp;  Contact.RecordType.DeveloperName = &#39;Franchise_Managed_Property_Employee&#39;))</errorConditionFormula>
+    <errorMessage>Account and Contact must be have same Record Type.</errorMessage>
+</ValidationRule>

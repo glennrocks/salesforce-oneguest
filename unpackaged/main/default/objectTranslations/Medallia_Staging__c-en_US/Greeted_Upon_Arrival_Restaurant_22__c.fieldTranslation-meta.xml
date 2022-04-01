@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Greeted Upon Arrival Restaurant 22 --></label>
+        <name>Greeted_Upon_Arrival_Restaurant_22__c</name>
+    </CustomFieldTranslation>

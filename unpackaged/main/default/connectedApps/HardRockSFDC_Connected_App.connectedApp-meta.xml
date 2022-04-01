@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>hardrock@gettectonic.com</contactEmail>
+    <description>Medallia get access to HardRock SFDC data through this connected app.</description>
+    <label>HardRockSFDC Connected App</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/callbackoauth2/callback</callbackUrl>
+        <consumerKey>3MVG9kBt168mda__Kp0RcMDW7I7V8qw7jmgiEaicZOj8j7bB_yFs_F7mvu3pnbRWXyxIitUVtK5TTvw1upO0z</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

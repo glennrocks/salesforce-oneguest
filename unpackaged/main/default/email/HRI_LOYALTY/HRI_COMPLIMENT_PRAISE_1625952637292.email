@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<span style="background:white"><span style="line-height:normal">Thank you for contacting Hard Rock Customer Care regarding your recent visit to Hard Rock Cafe <b>(INSERT CAFE LOCATION).&nbsp;&nbsp;</b>&nbsp;We are pleased to hear our staff provided an authentic experience that Rocked for you!</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">We have forwarded your comments to the General Manager of this location for their review.<br />
+&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">We look forward to creating more memorable experiences for you on you next visit!</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">Sincerely,</span></span></span></span><br />
+&nbsp;</body></html>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Evening (4pm - 9pm EST) --></label>
+        <name>Contact_Method_Evening_4pm_9pm_EST__c</name>
+    </CustomFieldTranslation>

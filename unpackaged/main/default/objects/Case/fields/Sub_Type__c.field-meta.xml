@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FH: Attitude</fullName>
+                <default>false</default>
+                <label>FH: Attitude</label>
+            </value>
+            <value>
+                <fullName>FH: Appearance</fullName>
+                <default>false</default>
+                <label>FH: Appearance</label>
+            </value>
+            <value>
+                <fullName>FH: Accuracy</fullName>
+                <default>false</default>
+                <label>FH: Accuracy</label>
+            </value>
+            <value>
+                <fullName>FH: Attentiveness</fullName>
+                <default>false</default>
+                <label>FH: Attentiveness</label>
+            </value>
+            <value>
+                <fullName>WT: Longer than expected (speed of Service)</fullName>
+                <default>false</default>
+                <label>WT: Longer than expected (speed of Service)</label>
+            </value>
+            <value>
+                <fullName>WT: Longer than expected (line)</fullName>
+                <default>false</default>
+                <label>WT: Longer than expected (line)</label>
+            </value>
+            <value>
+                <fullName>QT: Value</fullName>
+                <default>false</default>
+                <label>QT: Value</label>
+            </value>
+            <value>
+                <fullName>QT: Value (Marketing, SWC, Offer/Promo)</fullName>
+                <default>false</default>
+                <label>QT: Value (Marketing, SWC, Offer/Promo)</label>
+            </value>
+            <value>
+                <fullName>QT: Variety</fullName>
+                <default>false</default>
+                <label>QT: Variety</label>
+            </value>
+            <value>
+                <fullName>QT: Taste/Temperatue</fullName>
+                <default>false</default>
+                <label>QT: Taste/Temperatue</label>
+            </value>
+            <value>
+                <fullName>QT: Cleanliness</fullName>
+                <default>false</default>
+                <label>QT: Cleanliness</label>
+            </value>
+            <value>
+                <fullName>QT: Smell/Smoke/Air Quality/Temp/Volume</fullName>
+                <default>false</default>
+                <label>QT: Smell/Smoke/Air Quality/Temp/Volume</label>
+            </value>
+            <value>
+                <fullName>QT: Malfunctioning or Broken or Missing</fullName>
+                <default>false</default>
+                <label>QT: Malfunctioning or Broken or Missing</label>
+            </value>
+            <value>
+                <fullName>QT: Security</fullName>
+                <default>false</default>
+                <label>QT: Security</label>
+            </value>
+            <value>
+                <fullName>No Text</fullName>
+                <default>false</default>
+                <label>No Text</label>
+            </value>
+            <value>
+                <fullName>Lost Package</fullName>
+                <default>false</default>
+                <label>Lost Package</label>
+            </value>
+            <value>
+                <fullName>Broken/Wrong/Missing Item</fullName>
+                <default>false</default>
+                <label>Broken/Wrong/Missing Item</label>
+            </value>
+            <value>
+                <fullName>Gift Card</fullName>
+                <default>false</default>
+                <label>Gift Card</label>
+            </value>
+            <value>
+                <fullName>Missing or Wrong Credits/Badges</fullName>
+                <default>false</default>
+                <label>Missing or Wrong Credits/Badges</label>
+            </value>
+            <value>
+                <fullName>Expire Credits/Badges</fullName>
+                <default>false</default>
+                <label>Expire Credits/Badges</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

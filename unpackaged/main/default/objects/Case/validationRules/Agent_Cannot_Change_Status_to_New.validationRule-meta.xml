@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Cannot_Change_Status_to_New</fullName>
+    <active>true</active>
+    <description>Agent cannot change status to new</description>
+    <errorConditionFormula>AND(
+$User.ProfileId = $Label.System_Agent_ProfileId,
+ISCHANGED(Status),
+OR(
+ISPICKVAL(PRIORVALUE(Status), &#39;In Progress&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Guest&#39;),
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Internal&#39;),
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Warehouse&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Shipper&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Shipper Secondary&#39;),
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Warehouse Secondary&#39;),
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Internal Secondary&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Guest Secondary&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Pending Onsite Property Team Member&#39;),
+ISPICKVAL(PRIORVALUE(Status), &#39;Paused Crisis&#39;),	
+ISPICKVAL(PRIORVALUE(Status), &#39;Paused Other&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Reopened&#39;) ,
+ISPICKVAL(PRIORVALUE(Status), &#39;Closed&#39;)
+	
+),
+	ISPICKVAL(Status, &#39;New&#39;)			
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Agent Cannot Change Status To New.</errorMessage>
+</ValidationRule>

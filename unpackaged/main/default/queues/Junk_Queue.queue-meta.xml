@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Junk Queue</name>
+    <queueMembers>
+        <roles>
+            <role>Director</role>
+            <role>Guest_Services_Manager</role>
+            <role>Sr_Product_Manager</role>
+            <role>Team_Leader</role>
+            <role>VP</role>
+        </roles>
+        
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

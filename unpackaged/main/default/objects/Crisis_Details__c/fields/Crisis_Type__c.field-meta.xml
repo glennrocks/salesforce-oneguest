@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crisis_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Crisis Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Drowning</fullName>
+                <default>false</default>
+                <label>Drowning</label>
+            </value>
+            <value>
+                <fullName>Construction Disaster</fullName>
+                <default>false</default>
+                <label>Construction Disaster</label>
+            </value>
+            <value>
+                <fullName>Construction Accident</fullName>
+                <default>false</default>
+                <label>Construction Accident</label>
+            </value>
+            <value>
+                <fullName>Slip &amp; Fall</fullName>
+                <default>false</default>
+                <label>Slip &amp; Fall</label>
+            </value>
+            <value>
+                <fullName>Terrorism</fullName>
+                <default>false</default>
+                <label>Terrorism</label>
+            </value>
+            <value>
+                <fullName>Armed Robbery</fullName>
+                <default>false</default>
+                <label>Armed Robbery</label>
+            </value>
+            <value>
+                <fullName>Shooting</fullName>
+                <default>false</default>
+                <label>Shooting</label>
+            </value>
+            <value>
+                <fullName>Fight</fullName>
+                <default>false</default>
+                <label>Fight</label>
+            </value>
+            <value>
+                <fullName>Suspicious Package</fullName>
+                <default>false</default>
+                <label>Suspicious Package</label>
+            </value>
+            <value>
+                <fullName>Bomb Threat</fullName>
+                <default>false</default>
+                <label>Bomb Threat</label>
+            </value>
+            <value>
+                <fullName>Food Tampering</fullName>
+                <default>false</default>
+                <label>Food Tampering</label>
+            </value>
+            <value>
+                <fullName>Hostage situation</fullName>
+                <default>false</default>
+                <label>Hostage situation</label>
+            </value>
+            <value>
+                <fullName>Workplace Violence</fullName>
+                <default>false</default>
+                <label>Workplace Violence</label>
+            </value>
+            <value>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+                <label>Discrimination</label>
+            </value>
+            <value>
+                <fullName>Sexual Harassment</fullName>
+                <default>false</default>
+                <label>Sexual Harassment</label>
+            </value>
+            <value>
+                <fullName>Food Poisoning/Food Contamination</fullName>
+                <default>false</default>
+                <label>Food Poisoning/Food Contamination</label>
+            </value>
+            <value>
+                <fullName>Board of Health</fullName>
+                <default>false</default>
+                <label>Board of Health</label>
+            </value>
+            <value>
+                <fullName>Health Related</fullName>
+                <default>false</default>
+                <label>Health Related</label>
+            </value>
+            <value>
+                <fullName>Health Department</fullName>
+                <default>false</default>
+                <label>Health Department</label>
+            </value>
+            <value>
+                <fullName>Suicide Call</fullName>
+                <default>false</default>
+                <label>Suicide Call</label>
+            </value>
+            <value>
+                <fullName>Death on Site</fullName>
+                <default>false</default>
+                <label>Death on Site</label>
+            </value>
+            <value>
+                <fullName>Fire</fullName>
+                <default>false</default>
+                <label>Fire</label>
+            </value>
+            <value>
+                <fullName>Natural Disaster</fullName>
+                <default>false</default>
+                <label>Natural Disaster</label>
+            </value>
+            <value>
+                <fullName>Explosion</fullName>
+                <default>false</default>
+                <label>Explosion</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hard Rock</fullName>
+                <default>false</default>
+                <label>Hard Rock</label>
+            </value>
+            <value>
+                <fullName>Seminole Hard Rock</fullName>
+                <default>false</default>
+                <label>Seminole Hard Rock</label>
+            </value>
+            <value>
+                <fullName>Seminole</fullName>
+                <default>false</default>
+                <label>Seminole</label>
+            </value>
+            <value>
+                <fullName>Rock Shop</fullName>
+                <default>false</default>
+                <label>Rock Shop</label>
+            </value>
+            <value>
+                <fullName>Reverb</fullName>
+                <default>false</default>
+                <label>Reverb</label>
+            </value>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <label>Virtual</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

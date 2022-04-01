@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Using to show Case Information in the report related to Omni reports with agents work</description>
+    <externalId>false</externalId>
+    <label>Case</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Agent Work</relationshipLabel>
+    <relationshipName>Agent_Work</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

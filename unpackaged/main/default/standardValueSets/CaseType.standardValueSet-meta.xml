@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Detractor | Premier</fullName>
+        <default>false</default>
+        <label>Detractor | Premier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Passive | Premier</fullName>
+        <default>false</default>
+        <label>Passive | Premier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promoter | Premier</fullName>
+        <default>false</default>
+        <label>Promoter | Premier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Detractor | Elite or R2</fullName>
+        <default>false</default>
+        <label>Detractor | Elite or R2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Passive | Elite or R2</fullName>
+        <default>false</default>
+        <label>Passive | Elite or R2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promoter | Elite or R2</fullName>
+        <default>false</default>
+        <label>Promoter | Elite or R2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Detractor | Platinum</fullName>
+        <default>false</default>
+        <label>Detractor | Platinum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Passive | Platinum</fullName>
+        <default>false</default>
+        <label>Passive | Platinum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promoter | Platinum</fullName>
+        <default>false</default>
+        <label>Promoter | Platinum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Detractor | X or Rank 1</fullName>
+        <default>false</default>
+        <label>Detractor | X or Rank 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Passive | X or Rank 1</fullName>
+        <default>false</default>
+        <label>Passive | X or Rank 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promoter | X or Rank 1</fullName>
+        <default>false</default>
+        <label>Promoter | X or Rank 1</label>
+    </standardValue>
+</StandardValueSet>

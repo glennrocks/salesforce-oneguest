@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResSource__c</fullName>
+    <externalId>false</externalId>
+    <label>ResSource</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct:Web</fullName>
+                <default>false</default>
+                <label>Direct:Web</label>
+            </value>
+            <value>
+                <fullName>Direct:Customer Care</fullName>
+                <default>false</default>
+                <label>Direct:Customer Care</label>
+            </value>
+            <value>
+                <fullName>Direct:Customer Care BPO</fullName>
+                <default>false</default>
+                <label>Direct:Customer Care BPO</label>
+            </value>
+            <value>
+                <fullName>Direct:Other</fullName>
+                <default>false</default>
+                <label>Direct:Other</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Group</fullName>
+                <default>false</default>
+                <label>Group</label>
+            </value>
+            <value>
+                <fullName>Other/Admin</fullName>
+                <default>false</default>
+                <label>Other/Admin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orphan_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>NAME</columns>
+    <columns>Location__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.ESCALATION_STATE</columns>
+    <columns>Escalation_Level__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CONTACT.FIRST_NAME</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Orphan Cases</label>
+    <sharedTo>
+        <group>Agents_Public_Group</group>
+        <group>Business_Admin_Group</group>
+        <group>Supervisor_Public_Group</group>
+    </sharedTo>
+</ListView>

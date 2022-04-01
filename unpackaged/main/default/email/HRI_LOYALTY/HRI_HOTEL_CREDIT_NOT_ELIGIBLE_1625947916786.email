@@ -1,0 +1,17 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<span style="background:white"><span style="line-height:normal">Thank you for your patience while we researched the transaction for your stay at the&nbsp;<b>(INSERT HOTEL NAME)</b>.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">This message is to notify you that we have contacted the Management Team of this property&nbsp;to verify the eligibility of your recent hotel stay for benefits toward Hard Rock Rewards. </span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Please note that to receive benefits at Participating Hard Rock Hotels, the room rate must be a &quot;qualifying&quot; room rate. I<span style="color:black">f the guest room was booked through a tour operator, online travel channel or other third party channel including, at a group rate as part of an event, meeting conference or organized tour, at a tour operator, wholesaler, or crew room rate, at a business, employee or friends and family rate, or the guest room was provided complimentary, it is not considered a qualifying rate and the reservation would not receive Rewards points on your membership</span>. </span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Unfortunately, we have been informed that your reservation is &quot;ineligible&quot; for benefits toward your Hard Rock Rewards account as it was booked <b>(rate type for reservation)</b>..</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Please feel free to contact us again if we may be of any help to you in the future.</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Sincerely,</span></span></span></span><br />
+&nbsp;</body></html>

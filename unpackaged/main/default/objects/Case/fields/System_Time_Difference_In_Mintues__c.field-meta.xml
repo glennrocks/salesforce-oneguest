@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Time_Difference_In_Mintues__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+NOT(ISBLANK(Status_Updated_Time__c)),  
+(Now() - Status_Updated_Time__c  )*24*60,0)</formula>
+    <label>System Time Difference In Minutes</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

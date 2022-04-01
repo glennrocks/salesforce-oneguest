@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Taken__c</fullName>
+    <externalId>false</externalId>
+    <label>Action Taken</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Question Answered</fullName>
+                <default>false</default>
+                <label>Question Answered</label>
+            </value>
+            <value>
+                <fullName>Seek Clarification</fullName>
+                <default>false</default>
+                <label>Seek Clarification</label>
+            </value>
+            <value>
+                <fullName>Appeasement: Comp Dollars</fullName>
+                <default>false</default>
+                <label>Appeasement: Comp Dollars</label>
+            </value>
+            <value>
+                <fullName>Appeasement: Room+</fullName>
+                <default>false</default>
+                <label>Appeasement: Room+</label>
+            </value>
+            <value>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+                <label>Escalate</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Compassionate Response</fullName>
+                <default>false</default>
+                <label>Compassionate Response</label>
+            </value>
+            <value>
+                <fullName>Appeasement: Room</fullName>
+                <default>false</default>
+                <label>Appeasement: Room</label>
+            </value>
+            <value>
+                <fullName>NCN—No Contact Necessary</fullName>
+                <default>false</default>
+                <label>NCN—No Contact Necessary</label>
+            </value>
+            <value>
+                <fullName>Folio Sent</fullName>
+                <default>false</default>
+                <label>Folio Sent</label>
+            </value>
+            <value>
+                <fullName>Appeasement Offered</fullName>
+                <default>false</default>
+                <label>Appeasement Offered</label>
+            </value>
+            <value>
+                <fullName>Points/Visit Added</fullName>
+                <default>false</default>
+                <label>Points/Visit Added</label>
+            </value>
+            <value>
+                <fullName>Refunded Item/Order</fullName>
+                <default>false</default>
+                <label>Refunded Item/Order</label>
+            </value>
+            <value>
+                <fullName>Appeasement Credit</fullName>
+                <default>false</default>
+                <label>Appeasement Credit</label>
+            </value>
+            <value>
+                <fullName>Re-Ordered</fullName>
+                <default>false</default>
+                <label>Re-Ordered</label>
+            </value>
+            <value>
+                <fullName>Sent Tracking</fullName>
+                <default>false</default>
+                <label>Sent Tracking</label>
+            </value>
+            <value>
+                <fullName>Cancelled Order</fullName>
+                <default>false</default>
+                <label>Cancelled Order</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

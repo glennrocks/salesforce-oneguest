@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Crisis Type --></label>
+        <name>Crisis_Type__c</name>
+        <picklistValues>
+            <masterLabel>Armed Robbery</masterLabel>
+            <translation><!-- Armed Robbery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board of Health</masterLabel>
+            <translation><!-- Board of Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bomb Threat</masterLabel>
+            <translation><!-- Bomb Threat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Accident</masterLabel>
+            <translation><!-- Construction Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Disaster</masterLabel>
+            <translation><!-- Construction Disaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death on Site</masterLabel>
+            <translation><!-- Death on Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discrimination</masterLabel>
+            <translation><!-- Discrimination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drowning</masterLabel>
+            <translation><!-- Drowning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explosion</masterLabel>
+            <translation><!-- Explosion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fight</masterLabel>
+            <translation><!-- Fight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Poisoning/Food Contamination</masterLabel>
+            <translation><!-- Food Poisoning/Food Contamination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Tampering</masterLabel>
+            <translation><!-- Food Tampering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Department</masterLabel>
+            <translation><!-- Health Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Related</masterLabel>
+            <translation><!-- Health Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hostage situation</masterLabel>
+            <translation><!-- Hostage situation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Disaster</masterLabel>
+            <translation><!-- Natural Disaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sexual Harassment</masterLabel>
+            <translation><!-- Sexual Harassment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shooting</masterLabel>
+            <translation><!-- Shooting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slip &amp; Fall</masterLabel>
+            <translation><!-- Slip &amp; Fall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suicide Call</masterLabel>
+            <translation><!-- Suicide Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspicious Package</masterLabel>
+            <translation><!-- Suspicious Package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terrorism</masterLabel>
+            <translation><!-- Terrorism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace Violence</masterLabel>
+            <translation><!-- Workplace Violence --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

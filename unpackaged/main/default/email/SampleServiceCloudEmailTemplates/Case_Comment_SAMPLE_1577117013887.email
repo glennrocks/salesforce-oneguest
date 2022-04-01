@@ -1,0 +1,18 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><meta><b>Case Comment Notification - Case #{{{Case.CaseNumber}}}</b><br />
+<br />
+There is a new case comment available for Case #{{{Case.CaseNumber}}}.<br />
+<br />
+Case Information<br />
+Date/Time Opened: {{{Case.CreatedDate}}}<br />
+Case #: {{{Case.CaseNumber}}}<br />
+Subject: {{{Case.Subject}}}<br />
+Description: {{{Case.Description}}}<br />
+<br />
+Click on the link to access the case: {{{Case.Link}}}<br />
+<br />
+&nbsp;</body>
+</html>

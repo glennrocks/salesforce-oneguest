@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Resolution --></label>
+        <name>Resolution__c</name>
+        <picklistValues>
+            <masterLabel>Added Credits</masterLabel>
+            <translation><!-- Added Credits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement Comp Dollars</masterLabel>
+            <translation><!-- Appeasement Comp Dollars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement Credit</masterLabel>
+            <translation><!-- Appeasement Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement Room</masterLabel>
+            <translation><!-- Appeasement Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement Room +</masterLabel>
+            <translation><!-- Appeasement Room + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned Badge</masterLabel>
+            <translation><!-- Assigned Badge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled Order</masterLabel>
+            <translation><!-- Cancelled Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compasionate Response</masterLabel>
+            <translation><!-- Compasionate Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied  Lack of Evidence</masterLabel>
+            <translation><!-- Denied  Lack of Evidence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied  Other</masterLabel>
+            <translation><!-- Denied  Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate</masterLabel>
+            <translation><!-- Escalate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation><!-- Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Response from Guest</masterLabel>
+            <translation><!-- No Response from Guest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pins</masterLabel>
+            <translation><!-- Pins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questions Answered</masterLabel>
+            <translation><!-- Questions Answered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re Shipped Package</masterLabel>
+            <translation><!-- Re Shipped Package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seek Clarification</masterLabel>
+            <translation><!-- Seek Clarification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent Tracking</masterLabel>
+            <translation><!-- Sent Tracking --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

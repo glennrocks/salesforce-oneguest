@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medallia_Case_Status</fullName>
+    <columns>NAME</columns>
+    <columns>Use_For__c</columns>
+    <columns>Medallia_Alert_Status__c</columns>
+    <columns>SF_Case_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Use_For__c</field>
+        <operation>equals</operation>
+        <value>Medallia Case Status</value>
+    </filters>
+    <label>Medallia Case Status</label>
+</ListView>

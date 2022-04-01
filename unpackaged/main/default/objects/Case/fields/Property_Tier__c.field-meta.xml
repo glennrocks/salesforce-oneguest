@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Tier__c</fullName>
+    <externalId>false</externalId>
+    <label>Property Tier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Premier</fullName>
+                <default>false</default>
+                <label>Premier</label>
+            </value>
+            <value>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+                <label>Platinum</label>
+            </value>
+            <value>
+                <fullName>Elite</fullName>
+                <default>false</default>
+                <label>Elite</label>
+            </value>
+            <value>
+                <fullName>XCARD</fullName>
+                <default>false</default>
+                <label>XCARD</label>
+            </value>
+            <value>
+                <fullName>Rock Royalty</fullName>
+                <default>false</default>
+                <label>Rock Royalty</label>
+            </value>
+            <value>
+                <fullName>X</fullName>
+                <default>false</default>
+                <label>X</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

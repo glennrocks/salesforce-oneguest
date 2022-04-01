@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receiver_Email__c</fullName>
+    <description>When the user sends an email for Email To Case and receives the email from the same email address it will help us to select email template to response</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <label>Receiver Email / Sender</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

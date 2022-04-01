@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Case_Active_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Active Queue Id</shortDescription>
+        <value>00G4x000000Rdy5</value>
+    </labels>
+    <labels>
+        <fullName>Case_Junk_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Junk_Queue Id</shortDescription>
+        <value>00G4x000000RjUX</value>
+    </labels>
+    <labels>
+        <fullName>Case_Medallia_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Medallia Queue Id</shortDescription>
+        <value>00G4x000000RdyA</value>
+    </labels>
+    <labels>
+        <fullName>Case_Pending_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Pending Queue Id</shortDescription>
+        <value>00G4x000000RdyF</value>
+    </labels>
+    <labels>
+        <fullName>Error_Email_Receiver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Email Receiver</shortDescription>
+        <value>0054x000000TOI6</value>
+    </labels>
+    <labels>
+        <fullName>Medallia_Integration_ProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Medallia Integration ProfileId</shortDescription>
+        <value>00e4x000001VLdr</value>
+    </labels>
+    <labels>
+        <fullName>Medallia_Integration_User_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Medallia Integration User Id</shortDescription>
+        <value>0054x000000TOI6</value>
+    </labels>
+    <labels>
+        <fullName>Send_Auto_Response_Emails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Auto Response Emails</shortDescription>
+        <value>TRUE</value>
+    </labels>
+    <labels>
+        <fullName>Support_Settings_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Support Settings User</shortDescription>
+        <value>0054x000000TOI6AAO</value>
+    </labels>
+    <labels>
+        <fullName>System_Admin_ProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Admin ProfileId</shortDescription>
+        <value>00e4x000001VLdr</value>
+    </labels>
+    <labels>
+        <fullName>System_Agent_ProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Agent ProfileId</shortDescription>
+        <value>00e4x000000Io4r</value>
+    </labels>
+    <labels>
+        <fullName>System_Auto_Response_Sender_Change</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Auto Response Sender Change</shortDescription>
+        <value>TRUE</value>
+    </labels>
+    <labels>
+        <fullName>System_Business_Admin_ProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System_Business_Admin_ProfileId</shortDescription>
+        <value>00e4x000000Io4s</value>
+    </labels>
+    <labels>
+        <fullName>System_DataLoading_Case_Audit_Fields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System DataLoading Case Audit Fields</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>System_DataLoading_Contact_Mask_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System DataLoading Contact Mask Email</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Banner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System_Link_For_Banner</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=0684x000004CYAV&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HZIVf&amp;page=0&amp;d=/a/4x000000kFV8/T8Adj9VyzGAlgXUysTK7eH8c2Gfb5_ddCnrOmeu1t0c&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Banner2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For Banner2</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=0684x000004CYAQ&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HZIVV&amp;page=0&amp;d=/a/4x000000kG5U/9Kbl23nQvc2qu3iSfs_NU6X.rEfLPPwZPqHBMhvBFeM&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Brand</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For Brand</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0684x000001xB76&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxFW&amp;page=0&amp;d=/a/4x000000kEtH/8N6ZJRrZd9tqjXaixuQ4gt3eSw8fX3JrAYHsf0aZIHg&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Brighton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For Brighton</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6S&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxEO&amp;page=0&amp;d=/a/4x000000kEtF/AXvLLteG9oQ1Nq8mCFJpOC1DO6CWPPEZoX_c3M5J1FA&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Classic</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For Classic</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6X&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxEY&amp;page=0&amp;d=/a/4x000000kEtQ/tHOwSG9sVTF1ETuk5KvftRDwVEf57g1eiHZ9tUtSpZc&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_CoCo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For CoCo</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6m&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxEx&amp;page=0&amp;d=/a/4x000000kEtP/KvvvxINebIjTVhtPqrEa6KU3z63CeD51cNSAQUHRDTU&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Ecom</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For Ecom</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0684x000004CYAf&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HZIVz&amp;page=0&amp;d=/a/4x000000kG5Z/7qk7Kz9VWPTZVdzDgUc5ieEOFw4YlVH1Ejqaazt3Sx8&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_HWHR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For HWHR</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6w&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxFC&amp;page=0&amp;d=/a/4x000000kEtE/9wJOmcoSK9dd4_YPmI.qxI9uxwkWck7flg.aU2LQM7Y&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Loyalty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For Loyalty</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6c&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxEi&amp;page=0&amp;d=/a/4x000000kEtO/veMpgsgKxzCWNY1N4HD0WbKGdEO8F1RX7QtLy2hNgjM&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_SGIM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For SGIM</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6h&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxEs&amp;page=0&amp;d=/a/4x000000kEtN/CsIl70S18lByeOvwuYLVO2AP4DoyTpBhMMQi4LNCw4o&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_TAHR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Link For TAHR</shortDescription>
+        <value>https://seminolehardrocksupportservices--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0684x000001xB6r&amp;operationContext=DELIVERY&amp;contentId=05T4x00000HWxF7&amp;page=0&amp;d=/a/4x000000kEtM/SkTtxqR1XJUd9vVRFPBm5vUbsF0BtIe6SgmNkzcsaIs&amp;oid=00D4x0000023FlI&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Link_For_Unity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System_Link_For_Unity</shortDescription>
+        <value>https://seminolehardrocksupportservices--uat--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Gif&amp;versionId=0687h000001UhGX&amp;operationContext=DELIVERY&amp;contentId=05T7h000005eIWF&amp;page=0&amp;d=/a/7h0000000UCg/U1qxhxhpCyiOKY01k8lS9LSvZA76K0ENRI_V0RDXifE&amp;oid=00D7h000000H0HC&amp;dpt=null&amp;viewId=</value>
+    </labels>
+    <labels>
+        <fullName>System_Org_Wide_Email_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Org Wide Email Address</shortDescription>
+        <value>guestserviceescalation-noreply@shrss.com</value>
+    </labels>
+    <labels>
+        <fullName>System_Supervisor_ProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Supervisor ProfileId</shortDescription>
+        <value>00e4x000000Io4u</value>
+    </labels>
+</CustomLabels>

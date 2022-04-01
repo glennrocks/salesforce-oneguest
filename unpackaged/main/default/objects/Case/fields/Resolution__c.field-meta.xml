@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution__c</fullName>
+    <externalId>false</externalId>
+    <label>Resolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Added Credits</fullName>
+                <default>false</default>
+                <label>Added Credits</label>
+            </value>
+            <value>
+                <fullName>Assigned Badge</fullName>
+                <default>false</default>
+                <label>Assigned Badge</label>
+            </value>
+            <value>
+                <fullName>Appeasement Credit</fullName>
+                <default>false</default>
+                <label>Appeasement Credit</label>
+            </value>
+            <value>
+                <fullName>Denied  Lack of Evidence</fullName>
+                <default>false</default>
+                <label>Denied  Lack of Evidence</label>
+            </value>
+            <value>
+                <fullName>Denied  Other</fullName>
+                <default>false</default>
+                <label>Denied  Other</label>
+            </value>
+            <value>
+                <fullName>Pins</fullName>
+                <default>false</default>
+                <label>Pins</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Sent Tracking</fullName>
+                <default>false</default>
+                <label>Sent Tracking</label>
+            </value>
+            <value>
+                <fullName>Information</fullName>
+                <default>false</default>
+                <label>Information</label>
+            </value>
+            <value>
+                <fullName>Cancelled Order</fullName>
+                <default>false</default>
+                <label>Cancelled Order</label>
+            </value>
+            <value>
+                <fullName>Re Shipped Package</fullName>
+                <default>false</default>
+                <label>Re Shipped Package</label>
+            </value>
+            <value>
+                <fullName>No Response from Guest</fullName>
+                <default>false</default>
+                <label>No Response from Guest</label>
+            </value>
+            <value>
+                <fullName>Compasionate Response</fullName>
+                <default>false</default>
+                <label>Compasionate Response</label>
+            </value>
+            <value>
+                <fullName>Questions Answered</fullName>
+                <default>false</default>
+                <label>Questions Answered</label>
+            </value>
+            <value>
+                <fullName>Seek Clarification</fullName>
+                <default>false</default>
+                <label>Seek Clarification</label>
+            </value>
+            <value>
+                <fullName>Appeasement Comp Dollars</fullName>
+                <default>false</default>
+                <label>Appeasement Comp Dollars</label>
+            </value>
+            <value>
+                <fullName>Appeasement Room</fullName>
+                <default>false</default>
+                <label>Appeasement Room</label>
+            </value>
+            <value>
+                <fullName>Appeasement Room +</fullName>
+                <default>false</default>
+                <label>Appeasement Room +</label>
+            </value>
+            <value>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+                <label>Escalate</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Appeasement Credit (Value field to populate and required)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Appeasement Credit (Value field to populate and required)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

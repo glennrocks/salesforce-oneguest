@@ -1,0 +1,12 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;">HelloTeam,<br />
+<br />
+<span style="background:white"><span style="line-height:115%"><span style="line-height:115%">This guest has contacted us again stating they have not received a response as of yet. Can you please contact the guest at: {{{Recipient.Email}}}&nbsp;regarding this?</span></span></span><br />
+<br />
+<span style="background:white"><span style="line-height:115%"><span style="line-height:115%">Please copy </span><a href="mailto:customer_care@hardrock.com"><span style="border: 1pt none windowtext; padding: 0in;"><span style="line-height:115%"><span style="color:darkblue">customer_care@hardrock.com</span></span></span></a><span style="line-height:115%"> on the response so we can close the case as well.</span></span></span><br />
+<br />
+<span style="background:white"><span style="line-height:115%"><span style="line-height:115%">Thank you for your help!</span></span></span><br />
+<br />
+<b>Seminole Hard Rock Support Services Customer Care Team</b></span></span></body></html>

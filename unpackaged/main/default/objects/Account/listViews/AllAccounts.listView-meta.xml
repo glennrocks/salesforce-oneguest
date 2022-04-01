@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Location_Number__c</columns>
+    <columns>Territory__c</columns>
+    <columns>Business_Line__c</columns>
+    <columns>Brand__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Account.Customer_Guest_Account</value>
+    </filters>
+    <label>All Accounts</label>
+</ListView>

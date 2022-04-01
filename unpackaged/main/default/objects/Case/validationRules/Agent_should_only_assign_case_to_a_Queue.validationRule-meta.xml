@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_should_only_assign_case_to_a_Queue</fullName>
+    <active>true</active>
+    <description>Ability for the Agent to change case owner manually only to a  queue and must not be able to assign it to another agent, though the supervisor or manager must be able to assign a case to an agent or a queue.&#39;
+00eS0000000T7vrIAC = Agent Profile</description>
+    <errorConditionFormula>AND(
+$User.ProfileId = $Label.System_Agent_ProfileId, 
+    ISCHANGED(OwnerId),
+    LEFT(PRIORVALUE(OwnerId), 3) = &quot;005&quot;,
+    LEFT(OwnerId, 3) &lt;&gt; &quot;00G&quot;
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>You can assign the case only to a Queue.</errorMessage>
+</ValidationRule>

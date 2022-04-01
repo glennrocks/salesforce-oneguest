@@ -1,0 +1,14 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<span style="background:white"><span style="line-height:normal">Thank you for contacting Hard Rock Customer Care and for your inquiry. </span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">We apologize but unfortunately, we no longer have a location in (<b>enter cafe name</b>). However, we are still located in many locations around the globe. For the most up to date listing of our locations, please visit <a href="http://www.hardrock.com/cafes"><span style="border: 1pt none windowtext; padding: 0in;"><span style="color:darkblue">www.hardrock.com/cafes</span></span></a>. </span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span><br />
+<span style="background:white"><span style="line-height:normal">Please feel free to contact us again if we may be of any help to you in the future.<br />
+<br />
+Sincerely,</span></span><br />
+<span style="background:white"><span style="line-height:normal">&nbsp;</span></span></span></span><br />
+&nbsp;</body></html>

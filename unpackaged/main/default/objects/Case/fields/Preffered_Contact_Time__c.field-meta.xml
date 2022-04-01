@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preffered_Contact_Time__c</fullName>
+    <externalId>false</externalId>
+    <label>Preffered Contact Time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Immediately</fullName>
+                <default>false</default>
+                <label>Immediately</label>
+            </value>
+            <value>
+                <fullName>Morning (8am-Noon EST)</fullName>
+                <default>false</default>
+                <label>Morning (8am-Noon EST)</label>
+            </value>
+            <value>
+                <fullName>Afternoon (Noon - 4pm EST)</fullName>
+                <default>false</default>
+                <label>Afternoon (Noon - 4pm EST)</label>
+            </value>
+            <value>
+                <fullName>Evening (4pm - 9pm EST)</fullName>
+                <default>false</default>
+                <label>Evening (4pm - 9pm EST)</label>
+            </value>
+            <value>
+                <fullName>ASAP</fullName>
+                <default>false</default>
+                <label>ASAP</label>
+            </value>
+            <value>
+                <fullName>NOW</fullName>
+                <default>false</default>
+                <label>NOW</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

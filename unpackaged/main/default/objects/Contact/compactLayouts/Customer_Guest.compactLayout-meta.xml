@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Guest</fullName>
+    <fields>Name</fields>
+    <fields>Tier_Name__c</fields>
+    <fields>Tier_Light__c</fields>
+    <fields>Loyalty_Id__c</fields>
+    <fields>Communication_Alert_Sign__c</fields>
+    <fields>Email</fields>
+    <fields>MobilePhone</fields>
+    <label>Customer &amp; Guest</label>
+</CompactLayout>

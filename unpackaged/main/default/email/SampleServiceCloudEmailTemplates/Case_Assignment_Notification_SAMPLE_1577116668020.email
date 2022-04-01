@@ -1,0 +1,16 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><meta><b>Case Assignment Notification - Case #{{{Case.CaseNumber}}}</b><br />
+<br />
+The following case has been assigned to you:<br />
+<br />
+Company: {{{Case.Account}}}<br />
+Contact Name: {{{Recipient.Name}}}<br />
+Case #: {{{Case.CaseNumber}}}<br />
+Subject: {{{Case.Subject}}}<br />
+Description: {{{Case.Description}}}<br />
+<br />
+<meta charset='utf-8'>Click on the link to access the case: {{{Case.Link}}}</body>
+</html>

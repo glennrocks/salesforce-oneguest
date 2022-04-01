@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Use For --></label>
+        <name>Use_For__c</name>
+        <picklistValues>
+            <masterLabel>Case Escalation</masterLabel>
+            <translation><!-- Case Escalation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Priority With Case Type</masterLabel>
+            <translation><!-- Case Priority With Case Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email To Case Template Selection</masterLabel>
+            <translation><!-- Email To Case Template Selection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Escalation</masterLabel>
+            <translation><!-- Executive Escalation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medallia Alert Type</masterLabel>
+            <translation><!-- Medallia Alert Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medallia Case Status</masterLabel>
+            <translation><!-- Medallia Case Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medallia Property</masterLabel>
+            <translation><!-- Medallia Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medallia Survey Progress</masterLabel>
+            <translation><!-- Medallia Survey Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omni Channel</masterLabel>
+            <translation><!-- Omni Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebForms Property</masterLabel>
+            <translation><!-- WebForms Property --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

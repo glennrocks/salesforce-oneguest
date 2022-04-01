@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Escalation Level --></label>
+        <name>Escalation_Level__c</name>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Team Member</masterLabel>
+            <translation><!-- Lead Team Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supervisor</masterLabel>
+            <translation><!-- Supervisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VP</masterLabel>
+            <translation><!-- VP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

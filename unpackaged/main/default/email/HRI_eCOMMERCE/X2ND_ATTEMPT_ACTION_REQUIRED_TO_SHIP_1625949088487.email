@@ -1,0 +1,13 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<span style="background:white"><span style="line-height:normal">Thank you for our recent Online Rock Shop Order #_________.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">A friendly reminder to please confirm your shipping address in English so that we can process your order.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">If we don't hear from you by tomorrow's deadline, we will have to cancel and refund your order as we are unable to process in its current state.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">Sincerely,</span></span></span></span><br />
+&nbsp;</body></html>

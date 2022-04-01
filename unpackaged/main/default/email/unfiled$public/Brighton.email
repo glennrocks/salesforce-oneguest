@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<title>Thank you for contacting us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- CSS Reset -->
+<style type="text/css">
+html,  body {
+margin: 0 !important;
+padding: 0 !important;
+height: 100% !important;
+width: 100% !important;
+}
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+.ExternalClass {
+width: 100%;
+}
+div[style*="margin: 16px 0"] {
+margin: 0 !important;
+}
+table,  td {
+mso-table-lspace: 0pt !important;
+mso-table-rspace: 0pt !important;
+}
+table {
+border-spacing: 0 !important;
+border-collapse: collapse !important;
+table-layout: fixed !important;
+margin: 0 auto !important;
+}
+table table table {
+table-layout: auto;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+.yshortcuts a {
+border-bottom: none !important;
+}
+a[x-apple-data-detectors] {
+color: inherit !important;
+}
+</style>
+
+</head>
+<body bgcolor="#ffffff" width="100%" yahoo="yahoo" style="margin: 0px; padding: 0px; background-color: #ffffff;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+  <tr>
+    <td style="background-color: #ffffff;"><table width="600" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+        <tr>
+          <td align="center" style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">Thank you for contacting Seminole Casino Brighton</td>
+        </tr>
+        <tr>
+          <td style="height: 60px; max-width: 600px;"><table width="100%" style="margin: 20px 0 14px 0;">
+              <tr>
+                <td width="100%" style="background-color: #ffffff; text-align: center; margin:auto;"><a href="https://www.seminolebrightoncasino.com" target="_blank"><img src="{!$Label.System_Link_For_Brighton}" alt="Seminole Casino Brighton logo" width="125" height="auto" style="text-align: center; width: 125px; height: auto;" border="0"></a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr>
+                <td align="left" style="font-family: arial, helvetica, sans-serif; color: #454545; text-decoration:none; font-size:16px;  line-height:24px; padding: 20px 0;"><p><span style="line-height: 30px; text-transform: capitalize; display: inline-block; vertical-align: middle; font-size: 20px; color: #333333;">{!Case.System_Contact_First_Name__c}, </span> <span style="line-height: 30px; display: inline-block; vertical-align: middle; padding-left: 5px; font-size: 20px; color: #333333;"> thank you for contacting us.</span></p>
+                  <p>We have received your message. A Seminole Casino Brighton representative will be in contact in the next 72 hours. If you need immediate assistance, please call us at +1 (844) 754-7625. <br>
+                    <br>
+                    Reply to this email to share additional information with us.<br>
+                    <br>
+                    Reference Number: {!Case.CaseNumber} <br>
+                    Department Name: {!Case.Reason_Text__c} <br>
+                    First Name: {!Case.System_Contact_First_Name__c} <br>
+                    Last Name: {!Case.System_Contact_Last_Name__c} <br>
+                    Email: {!Case.SuppliedEmail} <br>
+                    Phone: {!Case.SuppliedPhone} <br>					  
+                    Seminole Wild Card: {!Seminole_Wild_Card_Number__c} <br>
+                    Comments/Questions: <br>
+		    <span style="white-space: pre-wrap; margin-top: -13px; ">{!Case.Description} </span> 
+                    <br>
+                  </p>
+                  <p>Sincerely,<br>
+                    <br>
+                    Seminole Casino Brighton</p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td align="center" style="border-bottom:1px solid #cccccc; padding-bottom: 30px;"></td>
+        </tr>
+        <tr>
+          <td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tbody>
+                <tr>
+                  <td align="left" style="font-family: helvetica, sans-serif; color: #666666;  font-size:14px;  line-height:18px; padding: 30px 0 30px 0;" ><p>Copyright &copy; [YYYY] Seminole Tribe of Florida. All Rights Reserved. Gambling problem? Please call 1-888-ADMIT-IT.<br>
+                      <br>
+                      <a href="https://www.playersedge.org" style="color:#666666; display: inline-block; vertical-align: middle; font-size: 12px;" target="_blank" title="PlayersEdge"> PlayersEdge</a> <span style="font-size: 12px; display: inline-block; vertical-align: middle; padding: 0px 6px;">|</span> <a href="http://www.seminolebrightoncasino.com/privacy-policy" title="Privacy Policy" style="color:#666666; display: inline-block; vertical-align: middle; font-size: 12px;" target="_blank">Privacy Policy</a> <span style="font-size: 12px; display: inline-block; vertical-align: middle; padding: 0px 6px;">|</span> <a href="http://www.seminolebrightoncasino.com/terms" title="Terms &amp; Conditions of Use" style="color:#666666; display: inline-block; vertical-align: middle; font-size: 12px;" target="_blank">Terms &amp; Conditions of Use</a></p> </td>
+                </tr>
+              </tbody>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

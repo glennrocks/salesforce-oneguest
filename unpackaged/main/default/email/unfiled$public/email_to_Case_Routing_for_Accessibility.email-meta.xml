@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal email distribution published on several of our websites for guests who need accommodation due to a disability.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email to Case Routing for Accessibility</name>
+    <style>none</style>
+    <subject>We’ve received your message, Reference: {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Speed of Service or Pace of Game --></label>
+        <name>Table_Games_Speed_of_Service_or_Pace_o__c</name>
+    </CustomFieldTranslation>

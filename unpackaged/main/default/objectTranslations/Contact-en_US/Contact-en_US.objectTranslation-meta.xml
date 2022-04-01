@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Customer &amp; Guest</layout>
+        <sections>
+            <label><!-- Communication Preferences --></label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia Information --></label>
+            <section>Medallia Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Contact --></label>
+        <name>Update_Contact</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Represents customer and guest contacts --></description>
+        <label><!-- Customer &amp; Guest --></label>
+        <name>Customer_Guest</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents franchise and managed location employees contacts --></description>
+        <label><!-- Franchise &amp; Managed Location Employee --></label>
+        <name>Franchise_Managed_Property_Employee</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You Cannot Add/Edit  Medallia or Brierley Contact. --></errorMessage>
+        <name>Agents_Supervisors_Cannot_Edit_Contacts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Loyalty Type is required with Loyalty ID --></errorMessage>
+        <name>Loyalty_Type_is_required_with_Loyalty_ID</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer/Guest type of Contact can&apos;t be created on Franchise/Managed Location Account --></errorMessage>
+        <name>Matching_Account_Contact_Record_Types</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Loyalty ID or IP Code is required with Loyalty Type. --></errorMessage>
+        <name>when_Loyalty_Type_Given</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Customer Care Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Agents_Public_Group</publicGroup>
+            <publicGroup>Supervisor_Public_Group</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueRoutingConfig>Cases_Routing_Config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

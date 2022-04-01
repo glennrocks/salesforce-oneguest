@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Notifications__c</fullName>
+    <externalId>false</externalId>
+    <label>Email Notifications</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All Cases (Crisis &amp; Non-Crisis)</fullName>
+                <default>false</default>
+                <label>All Cases (Crisis &amp; Non-Crisis)</label>
+            </value>
+            <value>
+                <fullName>Only Crisis Cases</fullName>
+                <default>false</default>
+                <label>Only Crisis Cases</label>
+            </value>
+            <value>
+                <fullName>Non-Crisis Cases</fullName>
+                <default>false</default>
+                <label>Non-Crisis Cases</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

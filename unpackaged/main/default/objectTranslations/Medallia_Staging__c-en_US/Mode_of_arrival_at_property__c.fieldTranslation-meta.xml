@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Mode of arrival at property --></label>
+        <name>Mode_of_arrival_at_property__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Car</masterLabel>
+            <translation><!-- Rental Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxi</masterLabel>
+            <translation><!-- Taxi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uber or Lyft</masterLabel>
+            <translation><!-- Uber or Lyft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Your Own Car</masterLabel>
+            <translation><!-- Your Own Car --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

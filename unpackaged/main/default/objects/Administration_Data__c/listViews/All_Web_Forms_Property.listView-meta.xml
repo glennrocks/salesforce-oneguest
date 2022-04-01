@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Web_Forms_Property</fullName>
+    <columns>NAME</columns>
+    <columns>Webform_Link__c</columns>
+    <columns>Property_Id__c</columns>
+    <columns>Receiver_Email__c</columns>
+    <columns>Email_Template_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Use_For__c</field>
+        <operation>equals</operation>
+        <value>WebForms Property</value>
+    </filters>
+    <label>All Web Forms Property</label>
+</ListView>

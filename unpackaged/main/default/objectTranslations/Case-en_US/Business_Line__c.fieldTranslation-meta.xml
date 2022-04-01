@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Line --></label>
+        <name>Business_Line__c</name>
+        <picklistValues>
+            <masterLabel>Casino Poker/Bingo</masterLabel>
+            <translation><!-- Casino Poker/Bingo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino Slots</masterLabel>
+            <translation><!-- Casino Slots --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casino Tables</masterLabel>
+            <translation><!-- Casino Tables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-Commerce</masterLabel>
+            <translation><!-- E-Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality Food and Beverages</masterLabel>
+            <translation><!-- Hospitality Food and Beverages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality Hotel/Spa</masterLabel>
+            <translation><!-- Hospitality Hotel/Spa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty Digital</masterLabel>
+            <translation><!-- Loyalty Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty Marketing</masterLabel>
+            <translation><!-- Loyalty Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Medallia Close Alert --></label>
+        <name>Medallia_Close_Alert</name>
+    </fieldSets>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- Medallia Information --></label>
+            <section>Medallia Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Case Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Crisis Information --></label>
+            <section>Crisis Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Guest &amp; Location Information --></label>
+            <section>Guest &amp; Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>E-Commerce Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Guest &amp; Location Information --></label>
+            <section>Guest &amp; Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preferred Time to Contact --></label>
+            <section>Preferred Time to Contact</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Web Information --></label>
+            <section>Web Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GX360 Survey</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Guest &amp; Location Information --></label>
+            <section>Guest &amp; Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia Information --></label>
+            <section>Medallia Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Loyalty Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Guest &amp; Location Information --></label>
+            <section>Guest &amp; Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preferred Time to Contact --></label>
+            <section>Preferred Time to Contact</section>
+        </sections>
+        <sections>
+            <label><!-- System Informaton --></label>
+            <section>System Informaton</section>
+        </sections>
+        <sections>
+            <label><!-- Web Information --></label>
+            <section>Web Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Other Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Guest &amp; Location Information --></label>
+            <section>Guest &amp; Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preferred Time to Contact --></label>
+            <section>Preferred Time to Contact</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Web Information --></label>
+            <section>Web Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Guest &amp; Location Information --></label>
+            <section>Guest &amp; Location Information</section>
+        </sections>
+        <sections>
+            <label><!-- Preferred Time to Contact --></label>
+            <section>Preferred Time to Contact</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Web Information --></label>
+            <section>Web Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Change Priority --></label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_GX360_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_LoyaltyEcom_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Other_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>Close_Service_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close the Case --></label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Send_Email_For_Ecommerce</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Send_Email_For_GX360</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Send_Email_For_Loyalty</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Send_Email_For_Other</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Send_Email_For_Service</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Case --></label>
+        <name>Update_Case</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- E-Commerce --></label>
+        <name>E_Commerce</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GX360 Survey --></label>
+        <name>GX360_Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Loyalty --></label>
+        <name>Loyalty</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Other --></label>
+        <name>Other</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service --></label>
+        <name>Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Value is required for the selected Action Taken --></errorMessage>
+        <name>ActionTaken_Value_Validation_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agent Cannot Change Status To New. --></errorMessage>
+        <name>Agent_Cannot_Change_Status_to_New</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot close a Case without assigning a Contact. --></errorMessage>
+        <name>Agent_Cannot_Close_Case_Without_Contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agent Cannot Change Status to Escalated, Escalated Level Two, Overdue or Open in MS Dynamics. --></errorMessage>
+        <name>Agent_Cannot_Update_few_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can assign the case only to a Queue. --></errorMessage>
+        <name>Agent_should_only_assign_case_to_a_Queue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The case can not be closed when the case owner is Queue. --></errorMessage>
+        <name>Case_cannot_be_close_when_owner_is_Queue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason is required to close the case --></errorMessage>
+        <name>Case_cannot_be_closed_without_Reason1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Action Taken is required to close the case --></errorMessage>
+        <name>Case_cannotbe_closed_without_ActionTaken</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Location is required to close the case --></errorMessage>
+        <name>Case_cannotbe_closed_without_Location</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Problem Area is required to close the case --></errorMessage>
+        <name>Case_cannotbe_closed_without_ProblemArea</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Resolution comments are required to close the case --></errorMessage>
+        <name>Case_cannotbe_closed_without_Resolution1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Resolution is required to close the case --></errorMessage>
+        <name>Case_cannotbe_closed_without_Resolution2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Location is required in order to change the case status. --></errorMessage>
+        <name>Location_Requied_When_Status_Is_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This case is being handled in Medallia, so no updates can be made in Salesforce. --></errorMessage>
+        <name>Medallia_Case_cannotbe_Edited_In_SFDC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Crisis Detail is required --></errorMessage>
+        <name>Please_Select_The_Crisis_Detail</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value is required for the selected Resolution --></errorMessage>
+        <name>Resolution_Value_Validation_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please assign the cases with Correct Subject --></errorMessage>
+        <name>Stop_Cases_Creation_based_on_Subject</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case reason is required for web-to-case --></errorMessage>
+        <name>Web_To_Case_Reason_Is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

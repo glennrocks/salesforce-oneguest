@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Problem Area --></label>
+        <name>Problem_Area__c</name>
+        <picklistValues>
+            <masterLabel>Account Support</masterLabel>
+            <translation><!-- Account Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Disputes</masterLabel>
+            <translation><!-- Billing Disputes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaboration/Advertising Requests</masterLabel>
+            <translation><!-- Collaboration/Advertising Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damaged/Missing/Wrong Item</masterLabel>
+            <translation><!-- Damaged/Missing/Wrong Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed/Lost Package/Tracking</masterLabel>
+            <translation><!-- Delayed/Lost Package/Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donation Requests</masterLabel>
+            <translation><!-- Donation Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Inquiries</masterLabel>
+            <translation><!-- Employment Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FH: Accuracy</masterLabel>
+            <translation><!-- FH: Accuracy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FH: Appearance</masterLabel>
+            <translation><!-- FH: Appearance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FH: Attentiveness</masterLabel>
+            <translation><!-- FH: Attentiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FH: Attitude</masterLabel>
+            <translation><!-- FH: Attitude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Folio Requests</masterLabel>
+            <translation><!-- Folio Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Information</masterLabel>
+            <translation><!-- General Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Inquiries</masterLabel>
+            <translation><!-- General Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Card</masterLabel>
+            <translation><!-- Gift Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guest Complaint</masterLabel>
+            <translation><!-- Guest Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost &amp; Found</masterLabel>
+            <translation><!-- Lost &amp; Found --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milestone Pins</masterLabel>
+            <translation><!-- Milestone Pins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Charge</masterLabel>
+            <translation><!-- No Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Text</masterLabel>
+            <translation><!-- No Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offers</masterLabel>
+            <translation><!-- Offers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points/Visit Credit</masterLabel>
+            <translation><!-- Points/Visit Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Inquiry</masterLabel>
+            <translation><!-- Product Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promo Codes/Offers</masterLabel>
+            <translation><!-- Promo Codes/Offers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Cleanliness</masterLabel>
+            <translation><!-- QT: Cleanliness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Malfunctioning or Broken or Missing</masterLabel>
+            <translation><!-- QT: Malfunctioning or Broken or Missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Security</masterLabel>
+            <translation><!-- QT: Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Smell/Smoke/Air Quality/Temp/Volume</masterLabel>
+            <translation><!-- QT: Smell/Smoke/Air Quality/Temp/Volume --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Taste/Temperature</masterLabel>
+            <translation><!-- QT: Taste/Temperature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Value</masterLabel>
+            <translation><!-- QT: Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Value (Marketing, SWC, Offer/Promo)</masterLabel>
+            <translation><!-- QT: Value (Marketing, SWC, Offer/Promo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QT: Variety</masterLabel>
+            <translation><!-- QT: Variety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refund</masterLabel>
+            <translation><!-- Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reservations/Cancellations/Rates</masterLabel>
+            <translation><!-- Reservations/Cancellations/Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Inquiries—Groups</masterLabel>
+            <translation><!-- Sales Inquiries—Groups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TA Commission</masterLabel>
+            <translation><!-- TA Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Member Inquiries</masterLabel>
+            <translation><!-- Team Member Inquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Requests</masterLabel>
+            <translation><!-- Vendor Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WT: Longer than expected (line)</masterLabel>
+            <translation><!-- WT: Longer than expected (line) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WT: Longer than expected (speed of service)</masterLabel>
+            <translation><!-- WT: Longer than expected (speed of service) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Support</masterLabel>
+            <translation><!-- Website Support --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

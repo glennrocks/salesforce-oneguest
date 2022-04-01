@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Contacting__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Contacting</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Employment</fullName>
+                <default>false</default>
+                <label>Employment</label>
+            </value>
+            <value>
+                <fullName>Location Accessibility</fullName>
+                <default>false</default>
+                <label>Location Accessibility</label>
+            </value>
+            <value>
+                <fullName>General Inquiry</fullName>
+                <default>false</default>
+                <label>General Inquiry</label>
+            </value>
+            <value>
+                <fullName>Question or Concern</fullName>
+                <default>false</default>
+                <label>Question or Concern</label>
+            </value>
+            <value>
+                <fullName>Website Issue or Feedback</fullName>
+                <default>false</default>
+                <label>Website Issue or Feedback</label>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+                <label>Human Resources</label>
+            </value>
+            <value>
+                <fullName>Other/Miscellaneous</fullName>
+                <default>false</default>
+                <label>Other/Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Public Relations &amp; Advertising</fullName>
+                <default>false</default>
+                <label>Public Relations &amp; Advertising</label>
+            </value>
+            <value>
+                <fullName>Rock Spa</fullName>
+                <default>false</default>
+                <label>Rock Spa</label>
+            </value>
+            <value>
+                <fullName>Sales/Catering/Meetings</fullName>
+                <default>false</default>
+                <label>Sales/Catering/Meetings</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Seminole Wild Card Online</fullName>
+                <default>false</default>
+                <label>Seminole Wild Card Online</label>
+            </value>
+            <value>
+                <fullName>Login Info &amp; Support</fullName>
+                <default>false</default>
+                <label>Login Info &amp; Support</label>
+            </value>
+            <value>
+                <fullName>Benefits</fullName>
+                <default>false</default>
+                <label>Benefits</label>
+            </value>
+            <value>
+                <fullName>Promotion Question</fullName>
+                <default>false</default>
+                <label>Promotion Question</label>
+            </value>
+            <value>
+                <fullName>Comp Dollars, Tier Points, or Free Play Questions</fullName>
+                <default>false</default>
+                <label>Comp Dollars, Tier Points, or Free Play Questions</label>
+            </value>
+            <value>
+                <fullName>Hotel Offers and Reservations</fullName>
+                <default>false</default>
+                <label>Hotel Offers and Reservations</label>
+            </value>
+            <value>
+                <fullName>Returns &amp; Refunds</fullName>
+                <default>false</default>
+                <label>Returns &amp; Refunds</label>
+            </value>
+            <value>
+                <fullName>Product Info</fullName>
+                <default>false</default>
+                <label>Product Info</label>
+            </value>
+            <value>
+                <fullName>Shipping Questions</fullName>
+                <default>false</default>
+                <label>Shipping Questions</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Online Support</fullName>
+                <default>false</default>
+                <label>Online Support</label>
+            </value>
+            <value>
+                <fullName>Dining</fullName>
+                <default>false</default>
+                <label>Dining</label>
+            </value>
+            <value>
+                <fullName>Entertainment &amp; Hard Rock Live</fullName>
+                <default>false</default>
+                <label>Entertainment &amp; Hard Rock Live</label>
+            </value>
+            <value>
+                <fullName>Gaming (Slots, Tables, Poker)</fullName>
+                <default>false</default>
+                <label>Gaming (Slots, Tables, Poker)</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Gaming (Bingo, Slots, Tables, Poker)</fullName>
+                <default>false</default>
+                <label>Gaming (Bingo, Slots, Tables, Poker)</label>
+            </value>
+            <value>
+                <fullName>Win/Loss Statement Requests</fullName>
+                <default>false</default>
+                <label>Win/Loss Statement Requests</label>
+            </value>
+            <value>
+                <fullName>Sales/Catering</fullName>
+                <default>false</default>
+                <label>Sales/Catering</label>
+            </value>
+            <value>
+                <fullName>Win/Lost Statement Requests</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Win/Lost Statement Requests</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

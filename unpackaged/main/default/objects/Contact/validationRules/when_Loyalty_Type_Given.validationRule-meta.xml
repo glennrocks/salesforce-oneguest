@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>when_Loyalty_Type_Given</fullName>
+    <active>true</active>
+    <description>validation rule to make Loyalty ID/IP Code fields is required only when Loyalty Type   is specifed by the user</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName =&#39;Customer_Guest&#39;,
+NOT(ISBLANK( Text(Loyalty_Type__c))) ,
+ISBLANK( Loyalty_Id__c ),
+ISBLANK( IP_Code__c )
+)</errorConditionFormula>
+    <errorMessage>Loyalty ID or IP Code is required with Loyalty Type.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Line__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Line</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loyalty Marketing</fullName>
+                <default>false</default>
+                <label>Loyalty Marketing</label>
+            </value>
+            <value>
+                <fullName>Loyalty Digital</fullName>
+                <default>false</default>
+                <label>Loyalty Digital</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Hospitality Hotel/Spa</fullName>
+                <default>false</default>
+                <label>Hospitality Hotel/Spa</label>
+            </value>
+            <value>
+                <fullName>Hospitality Food and Beverages</fullName>
+                <default>false</default>
+                <label>Hospitality Food and Beverages</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Casino Slots</fullName>
+                <default>false</default>
+                <label>Casino Slots</label>
+            </value>
+            <value>
+                <fullName>Casino Tables</fullName>
+                <default>false</default>
+                <label>Casino Tables</label>
+            </value>
+            <value>
+                <fullName>Casino Poker/Bingo</fullName>
+                <default>false</default>
+                <label>Casino Poker/Bingo</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

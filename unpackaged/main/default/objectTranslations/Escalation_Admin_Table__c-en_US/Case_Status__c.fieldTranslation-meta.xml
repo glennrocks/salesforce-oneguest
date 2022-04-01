@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Case Status --></label>
+        <name>Case_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paused Crisis</masterLabel>
+            <translation><!-- Paused Crisis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paused Other</masterLabel>
+            <translation><!-- Paused Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Guest</masterLabel>
+            <translation><!-- Pending Guest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Guest Secondary</masterLabel>
+            <translation><!-- Pending Guest Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Internal</masterLabel>
+            <translation><!-- Pending Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Internal Secondary</masterLabel>
+            <translation><!-- Pending Internal Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Onsite Property Team Member</masterLabel>
+            <translation><!-- Pending Onsite Property Team Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Shipper</masterLabel>
+            <translation><!-- Pending Shipper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Shipper Secondary</masterLabel>
+            <translation><!-- Pending Shipper Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Warehouse</masterLabel>
+            <translation><!-- Pending Warehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Warehouse Secondary</masterLabel>
+            <translation><!-- Pending Warehouse Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation><!-- Reopened --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responded</masterLabel>
+            <translation><!-- Responded --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

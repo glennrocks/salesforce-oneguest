@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Response</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Responses</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Medallia Staging 2 Layout</layout>
+        <sections>
+            <label><!-- Additional Responses --></label>
+            <section>Additional Responses</section>
+        </sections>
+        <sections>
+            <label><!-- Amenities --></label>
+            <section>Amenities</section>
+        </sections>
+        <sections>
+            <label><!-- Amenity Comments --></label>
+            <section>Amenity Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Casino Beverage Service Drivers --></label>
+            <section>Casino Beverage Service Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Casino Cashier Drivers --></label>
+            <section>Casino Cashier Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Casino Gaming Comment --></label>
+            <section>Casino Gaming Comment</section>
+        </sections>
+        <sections>
+            <label><!-- Casino Host --></label>
+            <section>Casino Host</section>
+        </sections>
+        <sections>
+            <label><!-- Casino Promotions --></label>
+            <section>Casino Promotions</section>
+        </sections>
+        <sections>
+            <label><!-- Casino Responses --></label>
+            <section>Casino Responses</section>
+        </sections>
+        <sections>
+            <label><!-- Common Area Drivers --></label>
+            <section>Common Area Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hotel Front Desk --></label>
+            <section>Hotel Front Desk</section>
+        </sections>
+        <sections>
+            <label><!-- In-Room Drivers --></label>
+            <section>In-Room Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Key Metrics --></label>
+            <section>Key Metrics</section>
+        </sections>
+        <sections>
+            <label><!-- Method Of Contact --></label>
+            <section>Method Of Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Players Club Drivers --></label>
+            <section>Players Club Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Problem Resolution --></label>
+            <section>Problem Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Reservation Booking Experience --></label>
+            <section>Reservation Booking Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Resort Reservation Responses --></label>
+            <section>Resort Reservation Responses</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 1 &amp; 2 --></label>
+            <section>Restaurant Bar 1 &amp; 2</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 11 &amp; 12 --></label>
+            <section>Restaurant Bar 11 &amp; 12</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 13, 14 &amp; 15 --></label>
+            <section>Restaurant Bar 13, 14 &amp; 15</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 16 &amp; 17 --></label>
+            <section>Restaurant Bar 16 &amp; 17</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 18 &amp; 19 --></label>
+            <section>Restaurant Bar 18 &amp; 19</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 20 &amp; 21 --></label>
+            <section>Restaurant Bar 20 &amp; 21</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 22 &amp; 23 --></label>
+            <section>Restaurant Bar 22 &amp; 23</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 24 &amp; 25 --></label>
+            <section>Restaurant Bar 24 &amp; 25</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 3 &amp; 4 --></label>
+            <section>Restaurant Bar 3 &amp; 4</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 5 &amp; 6 --></label>
+            <section>Restaurant Bar 5 &amp; 6</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 7 &amp; 8 --></label>
+            <section>Restaurant Bar 7 &amp; 8</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant Bar 9 &amp; 10 --></label>
+            <section>Restaurant Bar 9 &amp; 10</section>
+        </sections>
+        <sections>
+            <label><!-- Restaurant and Bar General Comments --></label>
+            <section>Restaurant and Bar General Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Room Experience --></label>
+            <section>Room Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Security Drivers --></label>
+            <section>Security Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Self Parking --></label>
+            <section>Self Parking</section>
+        </sections>
+        <sections>
+            <label><!-- Slots and Poker --></label>
+            <section>Slots and Poker</section>
+        </sections>
+        <sections>
+            <label><!-- Survey Response --></label>
+            <section>Survey Response</section>
+        </sections>
+        <sections>
+            <label><!-- Table Games and Bingo --></label>
+            <section>Table Games and Bingo</section>
+        </sections>
+        <sections>
+            <label><!-- Team Member Satisfaction --></label>
+            <section>Team Member Satisfaction</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Information --></label>
+            <section>Transaction Information</section>
+        </sections>
+        <sections>
+            <label><!-- Valet Drivers --></label>
+            <section>Valet Drivers</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Cannot_Close_Case_Without_Contact</fullName>
+    <active>true</active>
+    <description>Agent Cannot Close Without A Contact</description>
+    <errorConditionFormula>AND(
+$User.ProfileId = $Label.System_Agent_ProfileId,
+ISPICKVAL(Status, &quot;Closed&quot;),
+IsBlank( ContactId)
+  
+)</errorConditionFormula>
+    <errorDisplayField>ContactId</errorDisplayField>
+    <errorMessage>You cannot close a Case without assigning a Contact.</errorMessage>
+</ValidationRule>

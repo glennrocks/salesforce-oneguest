@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Value_Validation_rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(
+				ISPICKVAL(Resolution__c,&#39;Added Credits&#39;),
+				ISPICKVAL(Resolution__c,&#39;Assigned Badge&#39;),
+				ISPICKVAL(Resolution__c,&#39;Appeasement Credit&#39;),
+				ISPICKVAL(Resolution__c,&#39;Appeasement Comp Dollars&#39;),
+				ISPICKVAL(Resolution__c,&#39;Appeasement Room&#39;),
+				ISPICKVAL(Resolution__c,&#39;Appeasement Room +&#39;)
+
+
+),
+
+ISBlank(Value__c))</errorConditionFormula>
+    <errorDisplayField>Value__c</errorDisplayField>
+    <errorMessage>Value is required for the selected Resolution</errorMessage>
+</ValidationRule>

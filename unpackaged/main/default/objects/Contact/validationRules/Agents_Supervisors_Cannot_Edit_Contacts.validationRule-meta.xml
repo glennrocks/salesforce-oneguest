@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agents_Supervisors_Cannot_Edit_Contacts</fullName>
+    <active>true</active>
+    <description>Agents and Supervisors should not be able to edit contacts  Medallia or Brierly program.</description>
+    <errorConditionFormula>AND( 
+			
+			 OR(
+				    ISPICKVAL( PRIORVALUE(Member_Source__c) , &#39;Brierley&#39;),
+			     ISPICKVAL( PRIORVALUE(Member_Source__c) , &#39;Medallia&#39;),
+								ISPICKVAL(Member_Source__c, &#39;Medallia&#39; ),
+								ISPICKVAL(Member_Source__c , &#39;Brierley&#39;)
+
+				),
+    OR(
+				      $User.ProfileId == $Label.System_Agent_ProfileId,
+										$User.ProfileId == $Label.System_Supervisor_ProfileId
+							)
+			)</errorConditionFormula>
+    <errorMessage>You Cannot Add/Edit  Medallia or Brierley Contact.</errorMessage>
+</ValidationRule>

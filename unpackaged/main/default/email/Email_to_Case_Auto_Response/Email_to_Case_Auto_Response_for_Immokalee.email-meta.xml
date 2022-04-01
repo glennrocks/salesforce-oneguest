@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Using it in Auto Response For Web to Cases</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email to Case Auto Response for Immokalee</name>
+    <style>none</style>
+    <subject>Email to Case - Auto Response for Immokalee</subject>
+    <textOnly>Reference: {!Case.CaseNumber}
+
+Thank you for contacting us.
+
+We have received your message. A Seminole Casino Hotel Immokalee representative will be in contact in the next 72 hours. If you need immediate assistance, please call us at
++1 (844) 754-7625
+
+Sincerely,
+
+Seminole Casino Hotel Immokalee</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

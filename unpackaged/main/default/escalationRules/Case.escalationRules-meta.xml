@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <escalationRule>
+        <fullName>Sample Escalation</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <businessHoursSource>Case</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Problem,Feature Request,Question</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+</EscalationRules>

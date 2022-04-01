@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Loyalty Type --></label>
+        <name>Loyalty_Type__c</name>
+        <picklistValues>
+            <masterLabel>Atlantic City</masterLabel>
+            <translation><!-- Atlantic City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cincinnati</masterLabel>
+            <translation><!-- Cincinnati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRI</masterLabel>
+            <translation><!-- HRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Indiana</masterLabel>
+            <translation><!-- Northern Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGA</masterLabel>
+            <translation><!-- SGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacramento</masterLabel>
+            <translation><!-- Sacramento --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

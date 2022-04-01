@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Preffered Contact Time --></label>
+        <name>Preffered_Contact_Time__c</name>
+        <picklistValues>
+            <masterLabel>ASAP</masterLabel>
+            <translation><!-- ASAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Afternoon (Noon - 4pm EST)</masterLabel>
+            <translation><!-- Afternoon (Noon - 4pm EST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evening (4pm - 9pm EST)</masterLabel>
+            <translation><!-- Evening (4pm - 9pm EST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immediately</masterLabel>
+            <translation><!-- Immediately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morning (8am-Noon EST)</masterLabel>
+            <translation><!-- Morning (8am-Noon EST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOW</masterLabel>
+            <translation><!-- NOW --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

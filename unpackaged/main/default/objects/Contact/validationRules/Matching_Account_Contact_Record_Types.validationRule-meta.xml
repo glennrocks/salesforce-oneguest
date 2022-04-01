@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matching_Account_Contact_Record_Types</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.DeveloperName = &#39;Customer &amp; Guest&#39;
+&amp;&amp;
+Account.RecordType.DeveloperName = &#39;Franchise &amp; Managed Location Account&#39;</errorConditionFormula>
+    <errorMessage>Customer/Guest type of Contact can&#39;t be created on Franchise/Managed Location Account</errorMessage>
+</ValidationRule>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Action Taken --></label>
+        <name>Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>Appeasement Credit</masterLabel>
+            <translation><!-- Appeasement Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement Offered</masterLabel>
+            <translation><!-- Appeasement Offered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement: Comp Dollars</masterLabel>
+            <translation><!-- Appeasement: Comp Dollars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement: Room</masterLabel>
+            <translation><!-- Appeasement: Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeasement: Room+</masterLabel>
+            <translation><!-- Appeasement: Room+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled Order</masterLabel>
+            <translation><!-- Cancelled Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compassionate Response</masterLabel>
+            <translation><!-- Compassionate Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalate</masterLabel>
+            <translation><!-- Escalate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Folio Sent</masterLabel>
+            <translation><!-- Folio Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCN—No Contact Necessary</masterLabel>
+            <translation><!-- NCN—No Contact Necessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points/Visit Added</masterLabel>
+            <translation><!-- Points/Visit Added --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Question Answered</masterLabel>
+            <translation><!-- Question Answered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Ordered</masterLabel>
+            <translation><!-- Re-Ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refunded Item/Order</masterLabel>
+            <translation><!-- Refunded Item/Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seek Clarification</masterLabel>
+            <translation><!-- Seek Clarification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent Tracking</masterLabel>
+            <translation><!-- Sent Tracking --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

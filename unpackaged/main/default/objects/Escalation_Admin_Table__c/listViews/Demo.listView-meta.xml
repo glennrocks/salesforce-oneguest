@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo</fullName>
+    <columns>NAME</columns>
+    <columns>Case_Status__c</columns>
+    <columns>Escalation_Level__c</columns>
+    <columns>Case_Record_Type__c</columns>
+    <columns>Tier__c</columns>
+    <columns>Time_Minutes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Escalation_Level__c</field>
+        <operation>equals</operation>
+        <value>Lead Team Member,Supervisor,Manager,Director,VP</value>
+    </filters>
+    <filters>
+        <field>Case_Status__c</field>
+        <operation>equals</operation>
+        <value>In Progress</value>
+    </filters>
+    <filters>
+        <field>Tier__c</field>
+        <operation>equals</operation>
+        <value>X-Card_Rock Loyalty</value>
+    </filters>
+    <filters>
+        <field>Case_Record_Type__c</field>
+        <operation>equals</operation>
+        <value>Loyalty</value>
+    </filters>
+    <label>Demo</label>
+</ListView>

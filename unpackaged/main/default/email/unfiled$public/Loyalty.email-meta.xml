@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Loyalty</name>
+    <style>none</style>
+    <subject>We’ve received your message, Reference: {!Case.CaseNumber}</subject>
+    <textOnly>Thank you for contacting us! We have received your message and our  Guest Services team will be reviewing it shortly. While we review the details of your request over the next 72 hours please do not hesitate to reach out to us at the following phone number  If you haven&#39;t had a chance to download our new mobile application, please search for  in your app store or search engine for a chance to win great prizes and experiences.  You can respond to this email at any point if you have anything additional to share with us.  Sincerely,  Guest Services Manager -- {!Case.Location__r}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

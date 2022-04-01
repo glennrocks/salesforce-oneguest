@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Seminole: Primary reason for your score --></label>
+        <name>Seminole_Primary_reason_for_your_score__c</name>
+    </CustomFieldTranslation>

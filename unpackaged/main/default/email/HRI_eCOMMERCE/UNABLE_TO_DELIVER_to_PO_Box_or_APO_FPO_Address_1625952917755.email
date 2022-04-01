@@ -1,0 +1,15 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:16px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+<span style="background:white"><span style="line-height:normal">Thank you for your recent Online Rock Shop order<b> #XXXXXX</b>. We regret to inform you that the carrier is unable to deliver to the address you provided.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">Can you kindly provide an alternate address where we can deliver your package? It must be a physical, permanent address, and not a PO Box or APO/FPO address.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">Once provided, we will happily provide to the carrier and proceed with delivery.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">We appreciate your business and support of the Hard Rock brand.</span></span><br />
+<br />
+<span style="background:white"><span style="line-height:normal">Sincerely, </span></span></span></span><br />
+&nbsp;</body></html>

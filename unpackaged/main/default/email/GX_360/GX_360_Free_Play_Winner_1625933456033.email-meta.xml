@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GX 360 Free Play Winner</name>
+    <style>none</style>
+    <subject>Congratulations!  You&#39;ve won $250 in Free Play!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

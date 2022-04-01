@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- All log notes combined (if any) --></label>
+        <name>All_log_notes_combined_if_any__c</name>
+    </CustomFieldTranslation>

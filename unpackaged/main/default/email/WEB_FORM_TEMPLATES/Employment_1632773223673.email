@@ -1,0 +1,16 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Thank you for your inquiry regarding employment with our company.&nbsp;&nbsp;<br />
+<br />
+All open positions are posted on our website.&nbsp; Please visit <a href="https://">gotoworkhappy.com</a> to search for employment opportunities.<br />
+<br />
+We wish you good luck with your search!<br />
+<br />
+Sincerely,<br />
+<br />
+<br />
+<br />
+&nbsp;</body></html>

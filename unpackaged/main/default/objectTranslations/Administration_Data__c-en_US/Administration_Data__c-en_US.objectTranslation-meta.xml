@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Admin Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Admin Data</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Admin Data Setup</layout>
+        <sections>
+            <label><!-- Case Escalation Rule Setup --></label>
+            <section>Case Escalation Rule Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Case Type And Priority Setup --></label>
+            <section>Case Type And Priority Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia - Alert Type Transform To Case Priority --></label>
+            <section>Medallia - Alert Type Transform To Case Priority</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia - Property Setup --></label>
+            <section>Medallia - Property Setup</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Escalation</layout>
+        <sections>
+            <label><!-- Case Escalation Rule Setup --></label>
+            <section>Case Escalation Rule Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Priority With Case Type</layout>
+        <sections>
+            <label><!-- Case Type And Priority Setup --></label>
+            <section>Case Type And Priority Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Email To Case Template Selection</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email To Case Template Selection --></label>
+            <section>Email To Case Template Selection</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Executive Escalation</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Medallia Cases</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia - Alert Type Transform To Case Priority --></label>
+            <section>Medallia - Alert Type Transform To Case Priority</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia - Property Setup --></label>
+            <section>Medallia - Property Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Medallia Status Transformation --></label>
+            <section>Medallia Status Transformation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Omni Channel Status</layout>
+        <sections>
+            <label><!-- Case Escalation Rule Setup --></label>
+            <section>Case Escalation Rule Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Web Forms Property</layout>
+        <sections>
+            <label><!-- Case Type And Priority Setup --></label>
+            <section>Case Type And Priority Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Case Escalation --></label>
+        <name>Case_Escalation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Case Priority With Case Type --></label>
+        <name>Case_Priority_With_Case_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Using to decide which Email Template should be sent --></description>
+        <label><!-- Email To Case Template Selection --></label>
+        <name>Email_To_Case_Template_Selection</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- To make a case using from and to addresses (Executive) --></description>
+        <label><!-- Executive Escalation --></label>
+        <name>Executive_Escalation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Medallia Case --></label>
+        <name>Medallia_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- To track omni channel statuses --></description>
+        <label><!-- Omni Channel Status --></label>
+        <name>Omni_Channel_Status</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- To decide  property data coming from web to forms. --></description>
+        <label><!-- Web Forms Property --></label>
+        <name>Web_Forms_Property</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

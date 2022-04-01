@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic response email to be sent to customer when a new case is received.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Auto-Response Email to Customer (SAMPLE)</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Re: {{{Case.Subject}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

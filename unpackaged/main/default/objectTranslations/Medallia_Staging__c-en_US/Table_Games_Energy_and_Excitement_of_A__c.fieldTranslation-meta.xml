@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Energy and Excitement of Area --></label>
+        <name>Table_Games_Energy_and_Excitement_of_A__c</name>
+    </CustomFieldTranslation>

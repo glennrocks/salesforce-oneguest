@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_To_Case_Reason_Is_Required</fullName>
+    <active>true</active>
+    <description>HRSC3AP-485  Reason is required for web to case</description>
+    <errorConditionFormula>AND(
+				 ISPICKVAL(Origin,&#39;Web&#39;),
+     ISPICKVAL(Reason,&#39;&#39;) 		  
+			)</errorConditionFormula>
+    <errorDisplayField>Reason</errorDisplayField>
+    <errorMessage>Case reason is required for web-to-case</errorMessage>
+</ValidationRule>

@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loyalty</fullName>
+    <active>true</active>
+    <businessProcess>Support Process Loyalty</businessProcess>
+    <compactLayoutAssignment>Compact_Layout</compactLayoutAssignment>
+    <label>Loyalty</label>
+    <picklistValues>
+        <picklist>Action_Taken__c</picklist>
+        <values>
+            <fullName>Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Points%2FVisit Added</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question Answered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Line__c</picklist>
+        <values>
+            <fullName>Loyalty Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loyalty Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Concerned_Dept__c</picklist>
+        <values>
+            <fullName>Banquet or Catering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino Public Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino%3A Cashier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino%3A Player Development %28use for all Elite%2FX-Card%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino%3A Players Clubs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino%3A Poker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino%3A Slot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino%3A Table Games</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Leadership %28All%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Leadership %28Digital%2FMarketing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Leadership %28Direct%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Care Leadership %28All%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Care Leadership %28Direct%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment%2FBox Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F%26B Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel%2FRecreation%2FSpa%2FHousekeeping%2FEVS Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Night Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Escalation_Level__c</picklist>
+        <values>
+            <fullName>Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Team Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interaction_Request__c</picklist>
+        <values>
+            <fullName>I Prefer Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I Prefer Email</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Overall_Satisfaction__c</picklist>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Good</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prefer_the_Same_Agent__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preffered_Contact_Method__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Contact Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preffered_Contact_Time__c</picklist>
+        <values>
+            <fullName>ASAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Afternoon %28Noon - 4pm EST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evening %284pm - 9pm EST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediately</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morning %288am-Noon EST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOW</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Problem_Area__c</picklist>
+        <values>
+            <fullName>Account Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Inquiries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gift Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milestone Pins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Points%2FVisit Credit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Tier__c</picklist>
+        <values>
+            <fullName>Elite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock Royalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XCARD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rank__c</picklist>
+        <values>
+            <fullName>01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E_Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment %26 Hard Rock Live</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GX360_Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming %28Bingo%2C Slots%2C Tables%2C Poker%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming %28Slots%2C Tables%2C Poker%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location Accessibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loyalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other%2FMiscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations %26 Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question or Concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock Spa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales%2FCatering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales%2FCatering%2FMeetings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminole Wild Card Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Issue or Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win%2FLoss Statement Requests</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution__c</picklist>
+        <values>
+            <fullName>Added Credits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appeasement Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assigned Badge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied  Lack of Evidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied  Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pins</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Type__c</picklist>
+        <values>
+            <fullName>Expire Credits%2FBadges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing or Wrong Credits%2FBadges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier__c</picklist>
+        <values>
+            <fullName>Elite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XCARD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>medallia_xm__PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

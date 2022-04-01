@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Requied_When_Status_Is_Changed</fullName>
+    <active>true</active>
+    <description>Location is requied when status is changed by any agent.</description>
+    <errorConditionFormula>AND($User.ProfileId = $Label.System_Agent_ProfileId,
+NOT(ISPICKVAL(PRIORVALUE(Status),&quot;New&quot;)),
+ISCHANGED(Status),
+ISBLANK(Location__c) 
+)</errorConditionFormula>
+    <errorMessage>Location is required in order to change the case status.</errorMessage>
+</ValidationRule>

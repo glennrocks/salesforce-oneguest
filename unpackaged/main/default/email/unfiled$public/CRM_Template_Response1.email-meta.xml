@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CRM Template Response Body1</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CRM Template Response1</name>
+    <style>none</style>
+    <subject>{!Case.00N7h000003igQV} Feedback Received &amp; Response Coming Soon!</subject>
+    <textOnly>Thank you for contacting us! We have received your message and our {!Case.Location__c}  Guest Services team will be reviewing it shortly. While we review the details of your request over the next 48 hours please do not hesitate to reach out to us at the following phone number {!Case.00N7h000003igQV}.  If you haven&#39;t had a chance to download our new mobile application, please search for Seminole Social Casino Name in your app store or search engine for a chance to win great prizes and experiences.  You can respond to this email at any point if you have anything additional to share with us.  Sincerely,   Judy Prisk Guest Services Manager -- {!Case.00N7h000003igQV}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Run_Duplicate_Rule_Via_Code__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Only used in code to check duplicate Rules</description>
+    <externalId>false</externalId>
+    <label>System Run Duplicate Rule Via Code</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

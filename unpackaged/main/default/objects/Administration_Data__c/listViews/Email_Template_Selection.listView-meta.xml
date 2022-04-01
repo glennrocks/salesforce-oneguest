@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Template_Selection</fullName>
+    <columns>NAME</columns>
+    <columns>Receiver_Email__c</columns>
+    <columns>Email_Template_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Use_For__c</field>
+        <operation>equals</operation>
+        <value>Email To Case Template Selection</value>
+    </filters>
+    <label>Email Template Selection</label>
+</ListView>

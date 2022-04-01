@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacts_sourced_from_Brierley</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.BIRTHDATE</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>Tier_Name__c</columns>
+    <columns>Loyalty_Id__c</columns>
+    <columns>IP_Code__c</columns>
+    <columns>Loyalty_Type__c</columns>
+    <columns>Member_Status__c</columns>
+    <columns>Member_Status_Code__c</columns>
+    <columns>Casino_Account_Number__c</columns>
+    <columns>Rank__c</columns>
+    <columns>Rank_Value__c</columns>
+    <columns>Property_Tier__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Customer_Guest</value>
+    </filters>
+    <filters>
+        <field>Member_Source__c</field>
+        <operation>equals</operation>
+        <value>Brierley</value>
+    </filters>
+    <label>Contacts sourced from Brierley</label>
+</ListView>

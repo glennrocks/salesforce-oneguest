@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Employment</fullName>
+        <default>false</default>
+        <label>Employment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Location Accessibility</fullName>
+        <default>false</default>
+        <label>Location Accessibility</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>General Inquiry</fullName>
+        <default>false</default>
+        <label>General Inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Question or Concern</fullName>
+        <default>false</default>
+        <label>Question or Concern</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Issue or Feedback</fullName>
+        <default>false</default>
+        <label>Website Issue or Feedback</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Dining</fullName>
+        <default>false</default>
+        <label>Dining</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Entertainment &amp; Hard Rock Live</fullName>
+        <default>false</default>
+        <label>Entertainment &amp; Hard Rock Live</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Gaming (Slots, Tables, Poker)</fullName>
+        <default>false</default>
+        <label>Gaming (Slots, Tables, Poker)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <label>Hotel</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <label>Human Resources</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other/Miscellaneous</fullName>
+        <default>false</default>
+        <label>Other/Miscellaneous</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations &amp; Advertising</fullName>
+        <default>false</default>
+        <label>Public Relations &amp; Advertising</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rock Spa</fullName>
+        <default>false</default>
+        <label>Rock Spa</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales/Catering/Meetings</fullName>
+        <default>false</default>
+        <label>Sales/Catering/Meetings</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Security</fullName>
+        <default>false</default>
+        <label>Security</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminole Wild Card Online</fullName>
+        <default>false</default>
+        <label>Seminole Wild Card Online</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Login Info &amp; Support</fullName>
+        <default>false</default>
+        <label>Login Info &amp; Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefits</fullName>
+        <default>false</default>
+        <label>Benefits</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Promotion Question</fullName>
+        <default>false</default>
+        <label>Promotion Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Comp Dollars, Tier Points, or Free Play Questions</fullName>
+        <default>false</default>
+        <label>Comp Dollars, Tier Points, or Free Play Questions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel Offers and Reservations</fullName>
+        <default>false</default>
+        <label>Hotel Offers and Reservations</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Returns &amp; Refunds</fullName>
+        <default>false</default>
+        <label>Returns &amp; Refunds</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Info</fullName>
+        <default>false</default>
+        <label>Product Info</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping Questions</fullName>
+        <default>false</default>
+        <label>Shipping Questions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Online Support</fullName>
+        <default>false</default>
+        <label>Online Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Entertainment</fullName>
+        <default>false</default>
+        <label>Entertainment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Gaming (Bingo, Slots, Tables, Poker)</fullName>
+        <default>false</default>
+        <label>Gaming (Bingo, Slots, Tables, Poker)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales/Catering</fullName>
+        <default>false</default>
+        <label>Sales/Catering</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Win/Loss Statement Requests</fullName>
+        <default>false</default>
+        <label>Win/Loss Statement Requests</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>E_Commerce</fullName>
+        <default>false</default>
+        <label>E-Commerce</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Service</fullName>
+        <default>false</default>
+        <label>Service</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Loyalty</fullName>
+        <default>false</default>
+        <label>Loyalty</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>GX360_Survey</fullName>
+        <default>false</default>
+        <label>GX360 Survey</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X_Card_Customer_Guest_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>Tier_Name__c</columns>
+    <columns>Loyalty_Id__c</columns>
+    <columns>Loyalty_Type__c</columns>
+    <columns>Member_Status__c</columns>
+    <columns>Member_Source__c</columns>
+    <columns>Tier_Light__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Customer_Guest</value>
+    </filters>
+    <filters>
+        <field>Tier_Name__c</field>
+        <operation>equals</operation>
+        <value>X-Card_Rock Royalty,XCARD</value>
+    </filters>
+    <label>X-Card Customer/Guest Contacts</label>
+</ListView>
